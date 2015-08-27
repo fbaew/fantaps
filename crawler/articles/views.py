@@ -8,10 +8,14 @@ from articles.models import Article
 
 
 def index(request):
-    page_text = ""
     article_list = Article.objects.all()
     template = loader.get_template('articles/index.html')
     context = RequestContext(request, {
         'article_list':article_list,
     })
     return HttpResponse(template.render(context))
+
+def article_text(request, article_id):
+    # Article.objects.get(pk=)
+    a = Article.objects.get(pk=article_id)
+    return HttpResponse(a.article_text)
