@@ -46,6 +46,15 @@ class Article(models.Model):
     article_title = models.TextField(max_length=200)
     article_text = models.TextField(null=True)
     parent_feed = models.ForeignKey("Feed", default=get_default_feed)
+    tagged = models.BooleanField()
 
     def __str__(self):
         return self.article_title
+    
+
+class Tag(models.Model):
+    tag_name = models.TextField(max_length=50)
+    tagged_articles = models.ManyToManyField(Article)
+    
+    def __str__(self):
+        return self.tag_name

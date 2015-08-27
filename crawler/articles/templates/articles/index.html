@@ -14,6 +14,9 @@
 			font-family:verdana,sans-serif;
 			font-size:8pt;
 		}
+		.tags {
+			font-size:6pt;
+		}
 	</style>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	
@@ -32,7 +35,13 @@
 <div id="story_index">
 <ul>
 {% for article in article_list %}
-    <li onclick="get_text({{article.pk}})">{{article.article_title}}</li>
+    <li onclick="get_text({{article.pk}})">{{article.article_title}}
+	<div class="tags">
+		{% for tag in article.tag_set.all %}
+			#{{tag.tag_name}} 
+		{% endfor %}
+	</div>
+	</li>
 {% endfor %}
 
 </ul>
