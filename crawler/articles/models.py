@@ -46,7 +46,7 @@ class Article(models.Model):
     article_title = models.TextField(max_length=200)
     article_text = models.TextField(null=True)
     parent_feed = models.ForeignKey("Feed", default=get_default_feed)
-    tagged = models.BooleanField()
+    tagged = models.BooleanField(default=False)
 
     def __str__(self):
         return self.article_title

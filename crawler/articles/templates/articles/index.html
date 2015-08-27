@@ -1,11 +1,13 @@
 <html>
 <head>
 	<style>
+		body {
+			background-color:#DBFF94;
+		}
 		#content_container {
 			display:flex;
 		}
 		#content_container > div {
-			border:1px #000 solid;
 			flex-grow:1;
 			width:400px;
 		}
@@ -13,9 +15,24 @@
 		#article_text {
 			font-family:verdana,sans-serif;
 			font-size:8pt;
+			margin:10px;
+			padding-top:10px;
 		}
 		.tags {
-			font-size:6pt;
+			font-size:8pt;
+		}
+		
+		li {
+			font-size:25pt;
+			border:1px solid #999999;
+			margin:10px;
+			padding:10px;
+			background-color:#fff;
+			box-shadow: 2px 2px 3px #888888;
+		    
+		}
+		ul {
+			list-style-type:none;
 		}
 	</style>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -46,8 +63,20 @@
 
 </ul>
 </div>
-<div id="article_text">
-	Hi there
+<div id="middle">
+	<ul>
+	{% for article in article_list %}
+	    <li onclick="get_text({{article.pk}})">{{article.article_title}}
+		<div class="tags">
+			{% for tag in article.tag_set.all %}
+				<a href="/articles/tag/{{tag.tag_name}}">#{{tag.tag_name}}</a>
+			{% endfor %}
+		</div>
+		</li>
+	{% endfor %}
+
+	</ul>
 </div>
+<div id="article_text"></div>
 </div>
 </html>
