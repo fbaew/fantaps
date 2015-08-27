@@ -34,10 +34,10 @@ class Feed(models.Model):
             a = Article()
             a.article_url = raw_article["article_url"]
             a.article_title = raw_article["article_title"]
-            a.article_text = raw_article["article_text"]
             a.pub_date = raw_article["pub_date"]
             a.parent_feed = self
             if len(Article.objects.all().filter(article_title=a.article_title)) == 0:
+                a.article_text = scraper.get_article_text(a.article_url)
                 a.save()
 
 class Article(models.Model):
