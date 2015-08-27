@@ -1,23 +1,21 @@
 from django.test import TestCase
+import datetime
 from articles.scraper import RSSScraper
 
 # Create your tests here.
 
 class ScraperTestCase(TestCase):
-        def setup(self):
-            pass
-            
-        def test_scrape_all(self):
-            """some kind of magic to test live scraping"""
-            scraper = RSSScraper("http://rss.nytimes.com/services/xml/rss/nyt/Baseball.xml")
-            all_articles = scraper.scrape_all()
-            self.assertEqual(1,1)
-
-        def test_scrape_static(self):
-            """Test scraping a static xml file"""
-            scraper = RSSScraper("http://localhost/nice.xml")
-            all_articles = scraper.scrape_all()
-            print("Found {} articles.".format(len(all_articles)))
-            for item in all_articles:
-                print("\t{} - {}".format(item.article_url, item.article_title))
-            self.assertEqual(len(all_articles),20)
+    
+    # def test_scrape_static(self):
+    #     """Test scraping a static xml file"""
+    #     print("Found {} articles.".format(len(self.all_articles)))
+    #     for item in self.all_articles:
+    #         print("\t{} - {}".format(item["article_url"], item["article_title"]))
+    #     self.assertEqual(len(self.all_articles),20)
+    
+    def test_scrape_pub_date(self):
+        start_time = datetime.datetime.now()
+        scraper = RSSScraper("http://rss.nytimes.com/services/xml/rss/nyt/Baseball.xml")
+        scraper.scrape_all()
+        for item in scraper.articles:
+            self.assertTrue(item["pub_date"] < datetime.datetime.now())
