@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.template import RequestContext, loader
-from articles.models import Article
+from articles.models import Article,Tag
 
 
 # Create your views here.
@@ -12,6 +12,19 @@ def index(request):
     template = loader.get_template('articles/index.html')
     context = RequestContext(request, {
         'article_list':article_list,
+    })
+    return HttpResponse(template.render(context))
+
+def tag_roundup(request,tag_name):
+    article_list = None
+    tag = Tag.objects.filter(tag_name=tag_name)
+    if tag:
+        article_list = tag[0].tagged_articles.all()
+
+    template = loader.get_template('articles/tags.html')
+    context = RequestContext(request, {
+        'article_list':article_list,
+        'tag':tag_name,
     })
     return HttpResponse(template.render(context))
 

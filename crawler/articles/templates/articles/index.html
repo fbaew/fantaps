@@ -23,7 +23,7 @@
 	<script type="text/javascript">
 		function get_text(article_id) {
 			console.log("story " + article_id + " clicked")
-			$.get( article_id, function( response ) {
+			$.get( "/articles/" + article_id, function( response ) {
 			    console.log( response ); // server response
 				document.getElementById("article_text").innerText = response;
 			});
@@ -38,7 +38,7 @@
     <li onclick="get_text({{article.pk}})">{{article.article_title}}
 	<div class="tags">
 		{% for tag in article.tag_set.all %}
-			#{{tag.tag_name}} 
+			<a href="/articles/tag/{{tag.tag_name}}">#{{tag.tag_name}}</a>
 		{% endfor %}
 	</div>
 	</li>
