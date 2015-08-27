@@ -1,0 +1,44 @@
+<html>
+<head>
+	<style>
+		#content_container {
+			display:flex;
+		}
+		#content_container > div {
+			border:1px #000 solid;
+			flex-grow:1;
+			width:400px;
+		}
+		
+		#article_text {
+			font-family:verdana,sans-serif;
+			font-size:8pt;
+		}
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	
+	<script type="text/javascript">
+		function get_text(article_id) {
+			console.log("story " + article_id + " clicked")
+			$.get( article_id, function( response ) {
+			    console.log( response ); // server response
+				document.getElementById("article_text").innerText = response;
+			});
+		}
+	</script>
+</head>
+<body>
+<div id="content_container">
+<div id="story_index">
+<ul>
+{% for article in article_list %}
+    <li onclick="get_text({{article.pk}})">{{article.article_title}}</li>
+{% endfor %}
+
+</ul>
+</div>
+<div id="article_text">
+	Hi there
+</div>
+</div>
+</html>

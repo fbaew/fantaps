@@ -1,0 +1,7 @@
+Requirements:
+
+Python 3.4+
+	BeautifulSoup4
+	requests
+	lxml
+	django 1.8

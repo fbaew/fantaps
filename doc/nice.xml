@@ -1,0 +1,545 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='http://rss.nytimes.com/xsl/eng/rss.xsl'?>
+<html>
+ <body>
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/">
+   <channel>
+    <atom:link href="http://www.nytimes.com/services/xml/rss/nyt/Baseball.xml" rel="self" type="application/rss+xml">
+    </atom:link>
+    <title>
+     NYT &gt; Baseball
+    </title>
+    <link/>
+    http://www.nytimes.com/pages/sports/baseball/index.html?partner=rss&amp;emc=rss
+    <description>
+     Baseball
+    </description>
+    <language>
+     en-us
+    </language>
+    <copyright>
+     Copyright 2015 The New York Times Company
+    </copyright>
+    <pubdate>
+     Thu, 27 Aug 2015 04:29:14 GMT
+    </pubdate>
+    <lastbuilddate>
+     Thu, 27 Aug 2015 04:29:14 GMT
+    </lastbuilddate>
+    <ttl>
+     2
+    </ttl>
+    <image>
+     <title>
+      NYT &gt; Baseball
+     </title>
+     <url>
+      http://graphics8.nytimes.com/images/misc/NYT_logo_rss_250x40.png
+     </url>
+     <link/>
+     http://www.nytimes.com/pages/sports/baseball/index.html?partner=rss&amp;emc=rss
+    </image>
+    <item>
+     <title>
+      Cardinals Beat Diamondbacks 3-1 Behind Lackey
+     </title>
+     <link/>
+     http://rss.nytimes.com/c/34625/f/640313/s/49542ec6/sc/13/l/0L0Snytimes0N0Caponline0C20A150C0A80C270Csports0Cbaseball0Cap0Ebbn0Ecardinals0Ediamondbacks0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm
+     <description>
+      John Lackey pitched seven strong innings and the St. Louis Cardinals beat Arizona 3-1 on Wednesday night, their seventh straight win over the Diamondbacks.&lt;br clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567811712/u/0/f/640313/c/34625/s/49542ec6/sc/13/rc/1/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567811712/u/0/f/640313/c/34625/s/49542ec6/sc/13/rc/1/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567811712/u/0/f/640313/c/34625/s/49542ec6/sc/13/rc/2/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567811712/u/0/f/640313/c/34625/s/49542ec6/sc/13/rc/2/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567811712/u/0/f/640313/c/34625/s/49542ec6/sc/13/rc/3/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567811712/u/0/f/640313/c/34625/s/49542ec6/sc/13/rc/3/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/234567811712/u/0/f/640313/c/34625/s/49542ec6/sc/13/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/234567811712/u/0/f/640313/c/34625/s/49542ec6/sc/13/a2.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://adchoice.feedsportal.com/r/234567811712/u/0/f/640313/c/34625/s/49542ec6/sc/13/ach.htm"&gt;&lt;img src="http://adchoice.feedsportal.com/r/234567811712/u/0/f/640313/c/34625/s/49542ec6/sc/13/ach.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/234567811712/u/0/f/640313/c/34625/s/49542ec6/sc/13/a2t.img" border="0"/&gt;&lt;img width="1" height="1" src="http://pi2.feedsportal.com/r/234567811712/u/0/f/640313/c/34625/s/49542ec6/sc/13/a2t2.img" border="0"/&gt;&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/640313/s/49542ec6/sc/13/mf.gif' border='0'/&gt;
+     </description>
+     <pubdate>
+      Thu, 27 Aug 2015 04:27:34 GMT
+     </pubdate>
+     <guid ispermalink="false">
+      http://www.nytimes.com/aponline/2015/08/27/sports/baseball/ap-bbn-cardinals-diamondbacks.html
+     </guid>
+     <dc:creator>
+      THE ASSOCIATED PRESS
+     </dc:creator>
+    </item>
+    <item>
+     <atom:link href="http://www.nytimes.com/2015/08/27/sports/baseball/pennsylvania-advances-at-little-league-world-series.html?partner=rss&amp;emc=rss" rel="standout">
+     </atom:link>
+     <title>
+      Sports Briefing | Little League: Pennsylvania Advances at Little League World Series
+     </title>
+     <link/>
+     http://rss.nytimes.com/c/34625/f/640313/s/49542ec8/sc/13/l/0L0Snytimes0N0C20A150C0A80C270Csports0Cbaseball0Cpennsylvania0Eadvances0Eat0Elittle0Eleague0Eworld0Eseries0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm
+     <description>
+      Adam Cramer struck out 13 in five innings, and Lewisberry, Pa., reached the final of the United States bracket by beating Pearland, Tex., 3-0.&lt;br clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567811711/u/0/f/640313/c/34625/s/49542ec8/sc/13/rc/1/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567811711/u/0/f/640313/c/34625/s/49542ec8/sc/13/rc/1/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567811711/u/0/f/640313/c/34625/s/49542ec8/sc/13/rc/2/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567811711/u/0/f/640313/c/34625/s/49542ec8/sc/13/rc/2/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567811711/u/0/f/640313/c/34625/s/49542ec8/sc/13/rc/3/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567811711/u/0/f/640313/c/34625/s/49542ec8/sc/13/rc/3/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/234567811711/u/0/f/640313/c/34625/s/49542ec8/sc/13/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/234567811711/u/0/f/640313/c/34625/s/49542ec8/sc/13/a2.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://adchoice.feedsportal.com/r/234567811711/u/0/f/640313/c/34625/s/49542ec8/sc/13/ach.htm"&gt;&lt;img src="http://adchoice.feedsportal.com/r/234567811711/u/0/f/640313/c/34625/s/49542ec8/sc/13/ach.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/234567811711/u/0/f/640313/c/34625/s/49542ec8/sc/13/a2t.img" border="0"/&gt;&lt;img width="1" height="1" src="http://pi2.feedsportal.com/r/234567811711/u/0/f/640313/c/34625/s/49542ec8/sc/13/a2t2.img" border="0"/&gt;&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/640313/s/49542ec8/sc/13/mf.gif' border='0'/&gt;
+     </description>
+     <category domain="http://www.nytimes.com/namespaces/keywords/des">
+      Baseball
+     </category>
+     <category domain="http://www.nytimes.com/namespaces/keywords/des">
+      Little League World Series
+     </category>
+     <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">
+      Lewisberry (Pa)
+     </category>
+     <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">
+      Japan
+     </category>
+     <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">
+      Pearland (Tex)
+     </category>
+     <pubdate>
+      Thu, 27 Aug 2015 04:26:51 GMT
+     </pubdate>
+     <guid ispermalink="false">
+      http://www.nytimes.com/2015/08/27/sports/baseball/pennsylvania-advances-at-little-league-world-series.html
+     </guid>
+     <dc:creator>
+      THE ASSOCIATED PRESS
+     </dc:creator>
+    </item>
+    <item>
+     <title>
+      Verlander Takes No-Hit Bid Into 9th, Tigers Beat Angels 5-0
+     </title>
+     <link/>
+     http://rss.nytimes.com/c/34625/f/640313/s/49539745/sc/13/l/0L0Snytimes0N0Caponline0C20A150C0A80C260Csports0Cbaseball0Cap0Ebba0Eangels0Etigers0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm
+     <description>
+      Justin Verlander leaned forward a bit, hoping this line drive would land foul.&lt;br clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567808317/u/0/f/640313/c/34625/s/49539745/sc/13/rc/1/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567808317/u/0/f/640313/c/34625/s/49539745/sc/13/rc/1/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567808317/u/0/f/640313/c/34625/s/49539745/sc/13/rc/2/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567808317/u/0/f/640313/c/34625/s/49539745/sc/13/rc/2/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567808317/u/0/f/640313/c/34625/s/49539745/sc/13/rc/3/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567808317/u/0/f/640313/c/34625/s/49539745/sc/13/rc/3/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/234567808317/u/0/f/640313/c/34625/s/49539745/sc/13/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/234567808317/u/0/f/640313/c/34625/s/49539745/sc/13/a2.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://adchoice.feedsportal.com/r/234567808317/u/0/f/640313/c/34625/s/49539745/sc/13/ach.htm"&gt;&lt;img src="http://adchoice.feedsportal.com/r/234567808317/u/0/f/640313/c/34625/s/49539745/sc/13/ach.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/234567808317/u/0/f/640313/c/34625/s/49539745/sc/13/a2t.img" border="0"/&gt;&lt;img width="1" height="1" src="http://pi2.feedsportal.com/r/234567808317/u/0/f/640313/c/34625/s/49539745/sc/13/a2t2.img" border="0"/&gt;&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/640313/s/49539745/sc/13/mf.gif' border='0'/&gt;
+     </description>
+     <pubdate>
+      Thu, 27 Aug 2015 04:12:37 GMT
+     </pubdate>
+     <guid ispermalink="false">
+      http://www.nytimes.com/aponline/2015/08/26/sports/baseball/ap-bba-angels-tigers.html
+     </guid>
+     <dc:creator>
+      THE ASSOCIATED PRESS
+     </dc:creator>
+    </item>
+    <item>
+     <atom:link href="http://www.nytimes.com/2015/08/27/sports/baseball/mlb-roundup.html?partner=rss&amp;emc=rss" rel="standout">
+     </atom:link>
+     <title>
+      Roundup: No-Hitter Slips Away From Verlander in 9th
+     </title>
+     <link/>
+     http://rss.nytimes.com/c/34625/f/640313/s/495368d9/sc/13/l/0L0Snytimes0N0C20A150C0A80C270Csports0Cbaseball0Cmlb0Eroundup0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm
+     <description>
+      Justin Verlander lost a bid for his third no-hitter when Chris Iannetta lined a double to lead off the ninth inning, but the Tigers beat the visiting Angels, 5-0.&lt;br clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567828053/u/0/f/640313/c/34625/s/495368d9/sc/13/rc/1/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567828053/u/0/f/640313/c/34625/s/495368d9/sc/13/rc/1/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567828053/u/0/f/640313/c/34625/s/495368d9/sc/13/rc/2/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567828053/u/0/f/640313/c/34625/s/495368d9/sc/13/rc/2/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567828053/u/0/f/640313/c/34625/s/495368d9/sc/13/rc/3/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567828053/u/0/f/640313/c/34625/s/495368d9/sc/13/rc/3/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/234567828053/u/0/f/640313/c/34625/s/495368d9/sc/13/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/234567828053/u/0/f/640313/c/34625/s/495368d9/sc/13/a2.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://adchoice.feedsportal.com/r/234567828053/u/0/f/640313/c/34625/s/495368d9/sc/13/ach.htm"&gt;&lt;img src="http://adchoice.feedsportal.com/r/234567828053/u/0/f/640313/c/34625/s/495368d9/sc/13/ach.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/234567828053/u/0/f/640313/c/34625/s/495368d9/sc/13/a2t.img" border="0"/&gt;&lt;img width="1" height="1" src="http://pi2.feedsportal.com/r/234567828053/u/0/f/640313/c/34625/s/495368d9/sc/13/a2t2.img" border="0"/&gt;&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/640313/s/495368d9/sc/13/mf.gif' border='0'/&gt;
+     </description>
+     <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">
+      Tampa Bay Rays
+     </category>
+     <category domain="http://www.nytimes.com/namespaces/keywords/des">
+      Baseball
+     </category>
+     <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">
+      Texas Rangers
+     </category>
+     <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">
+      Minnesota Twins
+     </category>
+     <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">
+      Seattle Mariners
+     </category>
+     <category domain="http://www.nytimes.com/namespaces/keywords/des">
+      Sports Injuries
+     </category>
+     <pubdate>
+      Thu, 27 Aug 2015 04:06:13 GMT
+     </pubdate>
+     <guid ispermalink="false">
+      http://www.nytimes.com/2015/08/27/sports/baseball/mlb-roundup.html
+     </guid>
+     <dc:creator>
+      THE ASSOCIATED PRESS
+     </dc:creator>
+     <media:credit scheme="urn:ebu">
+      Carlos Osorio/Associated Press
+     </media:credit>
+     <media:description>
+      Justin Verlander finished the Tigers’ victory over the Angels with a one-hit shutout, missing out on his third career no-hitter.
+     </media:description>
+     <media:content height="151" lang="" url="http://graphics8.nytimes.com/images/2015/08/27/sports/CITY-BASE/CITY-BASE-moth.jpg" width="151">
+     </media:content>
+    </item>
+    <item>
+     <title>
+      Encarnacion Helps Price Celebrate 30th, Jays Top Texas 12-4
+     </title>
+     <link/>
+     http://rss.nytimes.com/c/34625/f/640313/s/4953f579/sc/35/l/0L0Snytimes0N0Caponline0C20A150C0A80C260Csports0Cbaseball0Cap0Ebba0Eblue0Ejays0Erangers0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm
+     <description>
+      Edwin Encarnacion hit a grand slam to extend his hitting streak to 21 games, helping David Price get a win on his 30th birthday in Toronto's 12-4 victory against the Texas Rangers on Wednesday night.&lt;br clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567786733/u/0/f/640313/c/34625/s/4953f579/sc/35/rc/1/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567786733/u/0/f/640313/c/34625/s/4953f579/sc/35/rc/1/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567786733/u/0/f/640313/c/34625/s/4953f579/sc/35/rc/2/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567786733/u/0/f/640313/c/34625/s/4953f579/sc/35/rc/2/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567786733/u/0/f/640313/c/34625/s/4953f579/sc/35/rc/3/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567786733/u/0/f/640313/c/34625/s/4953f579/sc/35/rc/3/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/234567786733/u/0/f/640313/c/34625/s/4953f579/sc/35/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/234567786733/u/0/f/640313/c/34625/s/4953f579/sc/35/a2.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://adchoice.feedsportal.com/r/234567786733/u/0/f/640313/c/34625/s/4953f579/sc/35/ach.htm"&gt;&lt;img src="http://adchoice.feedsportal.com/r/234567786733/u/0/f/640313/c/34625/s/4953f579/sc/35/ach.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/234567786733/u/0/f/640313/c/34625/s/4953f579/sc/35/a2t.img" border="0"/&gt;&lt;img width="1" height="1" src="http://pi2.feedsportal.com/r/234567786733/u/0/f/640313/c/34625/s/4953f579/sc/35/a2t2.img" border="0"/&gt;&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/640313/s/4953f579/sc/35/mf.gif' border='0'/&gt;
+     </description>
+     <pubdate>
+      Thu, 27 Aug 2015 03:45:31 GMT
+     </pubdate>
+     <guid ispermalink="false">
+      http://www.nytimes.com/aponline/2015/08/26/sports/baseball/ap-bba-blue-jays-rangers.html
+     </guid>
+     <dc:creator>
+      THE ASSOCIATED PRESS
+     </dc:creator>
+    </item>
+    <item>
+     <title>
+      Baseball Capsules
+     </title>
+     <link/>
+     http://rss.nytimes.com/c/34625/f/640313/s/4953f57a/sc/13/l/0L0Snytimes0N0Caponline0C20A150C0A80C260Csports0Cbaseball0Cap0Ebbo0Ebaseball0Ecapsules0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm
+     <description>
+      Justin Verlander lost a bid for his third no-hitter when Chris Iannetta lined a leadoff double in the ninth inning that landed on the left-field line, and the Detroit Tigers beat the Los Angeles Angels 5-0 Wednesday night.&lt;br clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567786732/u/0/f/640313/c/34625/s/4953f57a/sc/13/rc/1/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567786732/u/0/f/640313/c/34625/s/4953f57a/sc/13/rc/1/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567786732/u/0/f/640313/c/34625/s/4953f57a/sc/13/rc/2/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567786732/u/0/f/640313/c/34625/s/4953f57a/sc/13/rc/2/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567786732/u/0/f/640313/c/34625/s/4953f57a/sc/13/rc/3/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567786732/u/0/f/640313/c/34625/s/4953f57a/sc/13/rc/3/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/234567786732/u/0/f/640313/c/34625/s/4953f57a/sc/13/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/234567786732/u/0/f/640313/c/34625/s/4953f57a/sc/13/a2.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://adchoice.feedsportal.com/r/234567786732/u/0/f/640313/c/34625/s/4953f57a/sc/13/ach.htm"&gt;&lt;img src="http://adchoice.feedsportal.com/r/234567786732/u/0/f/640313/c/34625/s/4953f57a/sc/13/ach.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/234567786732/u/0/f/640313/c/34625/s/4953f57a/sc/13/a2t.img" border="0"/&gt;&lt;img width="1" height="1" src="http://pi2.feedsportal.com/r/234567786732/u/0/f/640313/c/34625/s/4953f57a/sc/13/a2t2.img" border="0"/&gt;&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/640313/s/4953f57a/sc/13/mf.gif' border='0'/&gt;
+     </description>
+     <pubdate>
+      Thu, 27 Aug 2015 03:39:35 GMT
+     </pubdate>
+     <guid ispermalink="false">
+      http://www.nytimes.com/aponline/2015/08/26/sports/baseball/ap-bbo-baseball-capsules.html
+     </guid>
+     <dc:creator>
+      THE ASSOCIATED PRESS
+     </dc:creator>
+    </item>
+    <item>
+     <title>
+      Trio of 2-Run Shots Power Orioles to 8-5 Win Over Royals
+     </title>
+     <link/>
+     http://rss.nytimes.com/c/34625/f/640313/s/49541414/sc/35/l/0L0Snytimes0N0Caponline0C20A150C0A80C260Csports0Cbaseball0Cap0Ebba0Eorioles0Eroyals0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm
+     <description>
+      Chris Davis, Manny Machado and Jonathan Schoop each hit a two-run homer off Johnny Cueto, and the Baltimore Orioles totaled five long balls in all Wednesday night to power their way to an 8-5 victory over the Kansas City Royals that snapped a six-game skid.&lt;br clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567831702/u/0/f/640313/c/34625/s/49541414/sc/35/rc/1/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567831702/u/0/f/640313/c/34625/s/49541414/sc/35/rc/1/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567831702/u/0/f/640313/c/34625/s/49541414/sc/35/rc/2/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567831702/u/0/f/640313/c/34625/s/49541414/sc/35/rc/2/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567831702/u/0/f/640313/c/34625/s/49541414/sc/35/rc/3/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567831702/u/0/f/640313/c/34625/s/49541414/sc/35/rc/3/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/234567831702/u/0/f/640313/c/34625/s/49541414/sc/35/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/234567831702/u/0/f/640313/c/34625/s/49541414/sc/35/a2.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://adchoice.feedsportal.com/r/234567831702/u/0/f/640313/c/34625/s/49541414/sc/35/ach.htm"&gt;&lt;img src="http://adchoice.feedsportal.com/r/234567831702/u/0/f/640313/c/34625/s/49541414/sc/35/ach.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/234567831702/u/0/f/640313/c/34625/s/49541414/sc/35/a2t.img" border="0"/&gt;&lt;img width="1" height="1" src="http://pi2.feedsportal.com/r/234567831702/u/0/f/640313/c/34625/s/49541414/sc/35/a2t2.img" border="0"/&gt;&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/640313/s/49541414/sc/35/mf.gif' border='0'/&gt;
+     </description>
+     <pubdate>
+      Thu, 27 Aug 2015 03:25:21 GMT
+     </pubdate>
+     <guid ispermalink="false">
+      http://www.nytimes.com/aponline/2015/08/26/sports/baseball/ap-bba-orioles-royals.html
+     </guid>
+     <dc:creator>
+      THE ASSOCIATED PRESS
+     </dc:creator>
+    </item>
+    <item>
+     <title>
+      Kipnis Has HR, 3 RBIs to Lead Indians Past Brewers, 6-2
+     </title>
+     <link/>
+     http://rss.nytimes.com/c/34625/f/640313/s/49541413/sc/28/l/0L0Snytimes0N0Caponline0C20A150C0A80C260Csports0Cbaseball0Cap0Ebbo0Ebrewers0Eindians0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm
+     <description>
+      Jason Kipnis homered and drove in three runs, and the Cleveland Indians used six pitchers in a 6-2 win over the Milwaukee Brewers on Wednesday night.&lt;br clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567831701/u/0/f/640313/c/34625/s/49541413/sc/28/rc/1/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567831701/u/0/f/640313/c/34625/s/49541413/sc/28/rc/1/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567831701/u/0/f/640313/c/34625/s/49541413/sc/28/rc/2/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567831701/u/0/f/640313/c/34625/s/49541413/sc/28/rc/2/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567831701/u/0/f/640313/c/34625/s/49541413/sc/28/rc/3/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567831701/u/0/f/640313/c/34625/s/49541413/sc/28/rc/3/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/234567831701/u/0/f/640313/c/34625/s/49541413/sc/28/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/234567831701/u/0/f/640313/c/34625/s/49541413/sc/28/a2.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://adchoice.feedsportal.com/r/234567831701/u/0/f/640313/c/34625/s/49541413/sc/28/ach.htm"&gt;&lt;img src="http://adchoice.feedsportal.com/r/234567831701/u/0/f/640313/c/34625/s/49541413/sc/28/ach.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/234567831701/u/0/f/640313/c/34625/s/49541413/sc/28/a2t.img" border="0"/&gt;&lt;img width="1" height="1" src="http://pi2.feedsportal.com/r/234567831701/u/0/f/640313/c/34625/s/49541413/sc/28/a2t2.img" border="0"/&gt;&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/640313/s/49541413/sc/28/mf.gif' border='0'/&gt;
+     </description>
+     <pubdate>
+      Thu, 27 Aug 2015 03:14:09 GMT
+     </pubdate>
+     <guid ispermalink="false">
+      http://www.nytimes.com/aponline/2015/08/26/sports/baseball/ap-bbo-brewers-indians.html
+     </guid>
+     <dc:creator>
+      THE ASSOCIATED PRESS
+     </dc:creator>
+    </item>
+    <item>
+     <title>
+      Porcello Pitches Red Sox Past Sale, White Sox 3-0
+     </title>
+     <link/>
+     http://rss.nytimes.com/c/34625/f/640313/s/49541415/sc/13/l/0L0Snytimes0N0Caponline0C20A150C0A80C260Csports0Cbaseball0Cap0Ebba0Ered0Esox0Ewhite0Esox0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm
+     <description>
+      Rick Porcello pitched seven sparkling innings in his return from a triceps injury, leading the Boston Red Sox to a 3-0 victory over the Chicago White Sox on Wednesday night.&lt;br clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567831700/u/0/f/640313/c/34625/s/49541415/sc/13/rc/1/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567831700/u/0/f/640313/c/34625/s/49541415/sc/13/rc/1/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567831700/u/0/f/640313/c/34625/s/49541415/sc/13/rc/2/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567831700/u/0/f/640313/c/34625/s/49541415/sc/13/rc/2/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567831700/u/0/f/640313/c/34625/s/49541415/sc/13/rc/3/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567831700/u/0/f/640313/c/34625/s/49541415/sc/13/rc/3/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/234567831700/u/0/f/640313/c/34625/s/49541415/sc/13/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/234567831700/u/0/f/640313/c/34625/s/49541415/sc/13/a2.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://adchoice.feedsportal.com/r/234567831700/u/0/f/640313/c/34625/s/49541415/sc/13/ach.htm"&gt;&lt;img src="http://adchoice.feedsportal.com/r/234567831700/u/0/f/640313/c/34625/s/49541415/sc/13/ach.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/234567831700/u/0/f/640313/c/34625/s/49541415/sc/13/a2t.img" border="0"/&gt;&lt;img width="1" height="1" src="http://pi2.feedsportal.com/r/234567831700/u/0/f/640313/c/34625/s/49541415/sc/13/a2t2.img" border="0"/&gt;&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/640313/s/49541415/sc/13/mf.gif' border='0'/&gt;
+     </description>
+     <pubdate>
+      Thu, 27 Aug 2015 03:02:05 GMT
+     </pubdate>
+     <guid ispermalink="false">
+      http://www.nytimes.com/aponline/2015/08/26/sports/baseball/ap-bba-red-sox-white-sox.html
+     </guid>
+     <dc:creator>
+      THE ASSOCIATED PRESS
+     </dc:creator>
+    </item>
+    <item>
+     <atom:link href="http://www.nytimes.com/2015/08/27/sports/baseball/a-new-mets-outlook-and-the-wins-keep-coming.html?partner=rss&amp;emc=rss" rel="standout">
+     </atom:link>
+     <title>
+      Mets 9, Phillies 4: A New Mets Outlook, and the Wins Keep Coming
+     </title>
+     <link/>
+     http://rss.nytimes.com/c/34625/f/640313/s/49541412/sc/13/l/0L0Snytimes0N0C20A150C0A80C270Csports0Cbaseball0Ca0Enew0Emets0Eoutlook0Eand0Ethe0Ewins0Ekeep0Ecoming0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm
+     <description>
+      There is a different aura surrounding the Mets, who are guaranteed to enter September in first place after a win Wednesday night in Philadelphia.&lt;br clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567831699/u/0/f/640313/c/34625/s/49541412/sc/13/rc/1/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567831699/u/0/f/640313/c/34625/s/49541412/sc/13/rc/1/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567831699/u/0/f/640313/c/34625/s/49541412/sc/13/rc/2/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567831699/u/0/f/640313/c/34625/s/49541412/sc/13/rc/2/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567831699/u/0/f/640313/c/34625/s/49541412/sc/13/rc/3/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567831699/u/0/f/640313/c/34625/s/49541412/sc/13/rc/3/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/234567831699/u/0/f/640313/c/34625/s/49541412/sc/13/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/234567831699/u/0/f/640313/c/34625/s/49541412/sc/13/a2.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://adchoice.feedsportal.com/r/234567831699/u/0/f/640313/c/34625/s/49541412/sc/13/ach.htm"&gt;&lt;img src="http://adchoice.feedsportal.com/r/234567831699/u/0/f/640313/c/34625/s/49541412/sc/13/ach.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/234567831699/u/0/f/640313/c/34625/s/49541412/sc/13/a2t.img" border="0"/&gt;&lt;img width="1" height="1" src="http://pi2.feedsportal.com/r/234567831699/u/0/f/640313/c/34625/s/49541412/sc/13/a2t2.img" border="0"/&gt;&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/640313/s/49541412/sc/13/mf.gif' border='0'/&gt;
+     </description>
+     <category domain="http://www.nytimes.com/namespaces/keywords/des">
+      Baseball
+     </category>
+     <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">
+      Collins, Terry L
+     </category>
+     <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">
+      New York Mets
+     </category>
+     <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">
+      Colon, Bartolo
+     </category>
+     <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">
+      Philadelphia Phillies
+     </category>
+     <pubdate>
+      Thu, 27 Aug 2015 02:58:26 GMT
+     </pubdate>
+     <guid ispermalink="false">
+      http://www.nytimes.com/2015/08/27/sports/baseball/a-new-mets-outlook-and-the-wins-keep-coming.html
+     </guid>
+     <dc:creator>
+      SETH BERKMAN
+     </dc:creator>
+     <media:credit scheme="urn:ebu">
+      Michael Perez/Associated Press
+     </media:credit>
+     <media:description>
+      Yoenis Cespedes was greeted by Wilmer Flores after scoring on a double by Michael Cuddyer during a three-run first inning on Wednesday night.
+     </media:description>
+     <media:content height="151" lang="" url="http://graphics8.nytimes.com/images/2015/08/27/sports/METS/METS-moth.jpg" width="151">
+     </media:content>
+    </item>
+    <item>
+     <title>
+      Escobar Hits 2 Homers, Twins Beat Rays 5-3
+     </title>
+     <link/>
+     http://rss.nytimes.com/c/34625/f/640313/s/49541417/sc/13/l/0L0Snytimes0N0Caponline0C20A150C0A80C260Csports0Cbaseball0Cap0Ebba0Etwins0Erays0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm
+     <description>
+      Eduardo Escobar homered twice and Joe Mauer had a tiebreaking RBI single as Minnesota beat the Tampa Bay Rays 5-3 Wednesday night for the Twins' sixth consecutive win.&lt;br clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567831698/u/0/f/640313/c/34625/s/49541417/sc/13/rc/1/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567831698/u/0/f/640313/c/34625/s/49541417/sc/13/rc/1/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567831698/u/0/f/640313/c/34625/s/49541417/sc/13/rc/2/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567831698/u/0/f/640313/c/34625/s/49541417/sc/13/rc/2/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567831698/u/0/f/640313/c/34625/s/49541417/sc/13/rc/3/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567831698/u/0/f/640313/c/34625/s/49541417/sc/13/rc/3/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/234567831698/u/0/f/640313/c/34625/s/49541417/sc/13/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/234567831698/u/0/f/640313/c/34625/s/49541417/sc/13/a2.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://adchoice.feedsportal.com/r/234567831698/u/0/f/640313/c/34625/s/49541417/sc/13/ach.htm"&gt;&lt;img src="http://adchoice.feedsportal.com/r/234567831698/u/0/f/640313/c/34625/s/49541417/sc/13/ach.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/234567831698/u/0/f/640313/c/34625/s/49541417/sc/13/a2t.img" border="0"/&gt;&lt;img width="1" height="1" src="http://pi2.feedsportal.com/r/234567831698/u/0/f/640313/c/34625/s/49541417/sc/13/a2t2.img" border="0"/&gt;&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/640313/s/49541417/sc/13/mf.gif' border='0'/&gt;
+     </description>
+     <pubdate>
+      Thu, 27 Aug 2015 02:56:05 GMT
+     </pubdate>
+     <guid ispermalink="false">
+      http://www.nytimes.com/aponline/2015/08/26/sports/baseball/ap-bba-twins-rays.html
+     </guid>
+     <dc:creator>
+      THE ASSOCIATED PRESS
+     </dc:creator>
+    </item>
+    <item>
+     <title>
+      Dodgers Ride 3 Homers to 7-4 Win Over Reds
+     </title>
+     <link/>
+     http://rss.nytimes.com/c/34625/f/640313/s/49541416/sc/13/l/0L0Snytimes0N0Caponline0C20A150C0A80C260Csports0Cbaseball0Cap0Ebbn0Edodgers0Ereds0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm
+     <description>
+      Scott Van Slyke, A.J. Ellis and Yasiel Puig homered during a five-run fourth inning, and the Los Angeles Dodgers held on for a 7-4 victory over the Cincinnati Reds on Wednesday night.&lt;br clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567831697/u/0/f/640313/c/34625/s/49541416/sc/13/rc/1/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567831697/u/0/f/640313/c/34625/s/49541416/sc/13/rc/1/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567831697/u/0/f/640313/c/34625/s/49541416/sc/13/rc/2/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567831697/u/0/f/640313/c/34625/s/49541416/sc/13/rc/2/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567831697/u/0/f/640313/c/34625/s/49541416/sc/13/rc/3/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567831697/u/0/f/640313/c/34625/s/49541416/sc/13/rc/3/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/234567831697/u/0/f/640313/c/34625/s/49541416/sc/13/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/234567831697/u/0/f/640313/c/34625/s/49541416/sc/13/a2.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://adchoice.feedsportal.com/r/234567831697/u/0/f/640313/c/34625/s/49541416/sc/13/ach.htm"&gt;&lt;img src="http://adchoice.feedsportal.com/r/234567831697/u/0/f/640313/c/34625/s/49541416/sc/13/ach.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/234567831697/u/0/f/640313/c/34625/s/49541416/sc/13/a2t.img" border="0"/&gt;&lt;img width="1" height="1" src="http://pi2.feedsportal.com/r/234567831697/u/0/f/640313/c/34625/s/49541416/sc/13/a2t2.img" border="0"/&gt;&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/640313/s/49541416/sc/13/mf.gif' border='0'/&gt;
+     </description>
+     <pubdate>
+      Thu, 27 Aug 2015 02:56:03 GMT
+     </pubdate>
+     <guid ispermalink="false">
+      http://www.nytimes.com/aponline/2015/08/26/sports/baseball/ap-bbn-dodgers-reds.html
+     </guid>
+     <dc:creator>
+      THE ASSOCIATED PRESS
+     </dc:creator>
+    </item>
+    <item>
+     <title>
+      Barnes Has 3 Hits to Lead Rockies to 6-3 Win Over Braves
+     </title>
+     <link/>
+     http://rss.nytimes.com/c/34625/f/640313/s/49541418/sc/13/l/0L0Snytimes0N0Caponline0C20A150C0A80C260Csports0Cbaseball0Cap0Ebbn0Erockies0Ebraves0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm
+     <description>
+      Brandon Barnes had three hits, including a two-run homer, and the Colorado Rockies extended Atlanta right-hander Shelby Miller's winless streak to 18 starts with a 6-3 victory over the Braves on Wednesday night.&lt;br clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567831696/u/0/f/640313/c/34625/s/49541418/sc/13/rc/1/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567831696/u/0/f/640313/c/34625/s/49541418/sc/13/rc/1/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567831696/u/0/f/640313/c/34625/s/49541418/sc/13/rc/2/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567831696/u/0/f/640313/c/34625/s/49541418/sc/13/rc/2/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567831696/u/0/f/640313/c/34625/s/49541418/sc/13/rc/3/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567831696/u/0/f/640313/c/34625/s/49541418/sc/13/rc/3/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/234567831696/u/0/f/640313/c/34625/s/49541418/sc/13/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/234567831696/u/0/f/640313/c/34625/s/49541418/sc/13/a2.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://adchoice.feedsportal.com/r/234567831696/u/0/f/640313/c/34625/s/49541418/sc/13/ach.htm"&gt;&lt;img src="http://adchoice.feedsportal.com/r/234567831696/u/0/f/640313/c/34625/s/49541418/sc/13/ach.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/234567831696/u/0/f/640313/c/34625/s/49541418/sc/13/a2t.img" border="0"/&gt;&lt;img width="1" height="1" src="http://pi2.feedsportal.com/r/234567831696/u/0/f/640313/c/34625/s/49541418/sc/13/a2t2.img" border="0"/&gt;&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/640313/s/49541418/sc/13/mf.gif' border='0'/&gt;
+     </description>
+     <pubdate>
+      Thu, 27 Aug 2015 02:56:02 GMT
+     </pubdate>
+     <guid ispermalink="false">
+      http://www.nytimes.com/aponline/2015/08/26/sports/baseball/ap-bbn-rockies-braves.html
+     </guid>
+     <dc:creator>
+      THE ASSOCIATED PRESS
+     </dc:creator>
+    </item>
+    <item>
+     <title>
+      Colon Tosses 7 Scoreless Innings, Mets Beat Phillies 9-4
+     </title>
+     <link/>
+     http://rss.nytimes.com/c/34625/f/640313/s/49539744/sc/13/l/0L0Snytimes0N0Caponline0C20A150C0A80C260Csports0Cbaseball0Cap0Ebbn0Emets0Ephillies0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm
+     <description>
+      Bartolo Colon tossed five-hit ball and struck out eight in seven sharp innings, Michael Cuddyer hit a long homer and the NL East-leading New York Mets beat the Philadelphia Phillies 9-4 on Wednesday night.&lt;br clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567808318/u/0/f/640313/c/34625/s/49539744/sc/13/rc/1/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567808318/u/0/f/640313/c/34625/s/49539744/sc/13/rc/1/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567808318/u/0/f/640313/c/34625/s/49539744/sc/13/rc/2/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567808318/u/0/f/640313/c/34625/s/49539744/sc/13/rc/2/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567808318/u/0/f/640313/c/34625/s/49539744/sc/13/rc/3/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567808318/u/0/f/640313/c/34625/s/49539744/sc/13/rc/3/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/234567808318/u/0/f/640313/c/34625/s/49539744/sc/13/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/234567808318/u/0/f/640313/c/34625/s/49539744/sc/13/a2.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://adchoice.feedsportal.com/r/234567808318/u/0/f/640313/c/34625/s/49539744/sc/13/ach.htm"&gt;&lt;img src="http://adchoice.feedsportal.com/r/234567808318/u/0/f/640313/c/34625/s/49539744/sc/13/ach.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/234567808318/u/0/f/640313/c/34625/s/49539744/sc/13/a2t.img" border="0"/&gt;&lt;img width="1" height="1" src="http://pi2.feedsportal.com/r/234567808318/u/0/f/640313/c/34625/s/49539744/sc/13/a2t2.img" border="0"/&gt;&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/640313/s/49539744/sc/13/mf.gif' border='0'/&gt;
+     </description>
+     <pubdate>
+      Thu, 27 Aug 2015 02:28:51 GMT
+     </pubdate>
+     <guid ispermalink="false">
+      http://www.nytimes.com/aponline/2015/08/26/sports/baseball/ap-bbn-mets-phillies.html
+     </guid>
+     <dc:creator>
+      THE ASSOCIATED PRESS
+     </dc:creator>
+    </item>
+    <item>
+     <title>
+      McCutchen's 4 RBIs Lead Pirates to 7-2 Win
+     </title>
+     <link/>
+     http://rss.nytimes.com/c/34625/f/640313/s/49539746/sc/13/l/0L0Snytimes0N0Caponline0C20A150C0A80C260Csports0Cbaseball0Cap0Ebbn0Epirates0Emarlins0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm
+     <description>
+      Andrew McCutchen homered and drove in four runs to help the Pittsburgh Pirates to a 7-2 victory over the Miami Marlins on Wednesday night.&lt;br clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567808316/u/0/f/640313/c/34625/s/49539746/sc/13/rc/1/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567808316/u/0/f/640313/c/34625/s/49539746/sc/13/rc/1/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567808316/u/0/f/640313/c/34625/s/49539746/sc/13/rc/2/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567808316/u/0/f/640313/c/34625/s/49539746/sc/13/rc/2/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567808316/u/0/f/640313/c/34625/s/49539746/sc/13/rc/3/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567808316/u/0/f/640313/c/34625/s/49539746/sc/13/rc/3/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/234567808316/u/0/f/640313/c/34625/s/49539746/sc/13/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/234567808316/u/0/f/640313/c/34625/s/49539746/sc/13/a2.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://adchoice.feedsportal.com/r/234567808316/u/0/f/640313/c/34625/s/49539746/sc/13/ach.htm"&gt;&lt;img src="http://adchoice.feedsportal.com/r/234567808316/u/0/f/640313/c/34625/s/49539746/sc/13/ach.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/234567808316/u/0/f/640313/c/34625/s/49539746/sc/13/a2t.img" border="0"/&gt;&lt;img width="1" height="1" src="http://pi2.feedsportal.com/r/234567808316/u/0/f/640313/c/34625/s/49539746/sc/13/a2t2.img" border="0"/&gt;&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/640313/s/49539746/sc/13/mf.gif' border='0'/&gt;
+     </description>
+     <pubdate>
+      Thu, 27 Aug 2015 01:53:10 GMT
+     </pubdate>
+     <guid ispermalink="false">
+      http://www.nytimes.com/aponline/2015/08/26/sports/baseball/ap-bbn-pirates-marlins.html
+     </guid>
+     <dc:creator>
+      THE ASSOCIATED PRESS
+     </dc:creator>
+    </item>
+    <item>
+     <title>
+      LEADING OFF: Cubs Face Bumgarner; Greinke Looks for Rebound
+     </title>
+     <link/>
+     http://rss.nytimes.com/c/34625/f/640313/s/49536dd7/sc/13/l/0L0Snytimes0N0Caponline0C20A150C0A80C260Csports0Cbaseball0Cap0Ebbo0Eleading0Eoff0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm
+     <description>
+      A look at what's happening all around the major leagues on Thursday:&lt;br clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567829268/u/0/f/640313/c/34625/s/49536dd7/sc/13/rc/1/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567829268/u/0/f/640313/c/34625/s/49536dd7/sc/13/rc/1/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567829268/u/0/f/640313/c/34625/s/49536dd7/sc/13/rc/2/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567829268/u/0/f/640313/c/34625/s/49536dd7/sc/13/rc/2/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567829268/u/0/f/640313/c/34625/s/49536dd7/sc/13/rc/3/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567829268/u/0/f/640313/c/34625/s/49536dd7/sc/13/rc/3/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/234567829268/u/0/f/640313/c/34625/s/49536dd7/sc/13/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/234567829268/u/0/f/640313/c/34625/s/49536dd7/sc/13/a2.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://adchoice.feedsportal.com/r/234567829268/u/0/f/640313/c/34625/s/49536dd7/sc/13/ach.htm"&gt;&lt;img src="http://adchoice.feedsportal.com/r/234567829268/u/0/f/640313/c/34625/s/49536dd7/sc/13/ach.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/234567829268/u/0/f/640313/c/34625/s/49536dd7/sc/13/a2t.img" border="0"/&gt;&lt;img width="1" height="1" src="http://pi2.feedsportal.com/r/234567829268/u/0/f/640313/c/34625/s/49536dd7/sc/13/a2t2.img" border="0"/&gt;&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/640313/s/49536dd7/sc/13/mf.gif' border='0'/&gt;
+     </description>
+     <pubdate>
+      Thu, 27 Aug 2015 01:40:41 GMT
+     </pubdate>
+     <guid ispermalink="false">
+      http://www.nytimes.com/aponline/2015/08/26/sports/baseball/ap-bbo-leading-off.html
+     </guid>
+     <dc:creator>
+      THE ASSOCIATED PRESS
+     </dc:creator>
+    </item>
+    <item>
+     <title>
+      Iannetta Ends Verlander's No-Hit Bid With No Outs in 9th
+     </title>
+     <link/>
+     http://rss.nytimes.com/c/34625/f/640313/s/49536dda/sc/13/l/0L0Snytimes0N0Caponline0C20A150C0A80C260Csports0Cbaseball0Cap0Ebba0Etigers0Everlander0Eno0Ehitter0Ealert0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm
+     <description>
+      The Los Angeles Angels' Chris Iannetta hit a leadoff double off the chalk on the left field line to end Justin Verlander's no-hit bid for the Detroit Tigers in the ninth inning.&lt;br clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567829267/u/0/f/640313/c/34625/s/49536dda/sc/13/rc/1/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567829267/u/0/f/640313/c/34625/s/49536dda/sc/13/rc/1/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567829267/u/0/f/640313/c/34625/s/49536dda/sc/13/rc/2/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567829267/u/0/f/640313/c/34625/s/49536dda/sc/13/rc/2/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567829267/u/0/f/640313/c/34625/s/49536dda/sc/13/rc/3/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567829267/u/0/f/640313/c/34625/s/49536dda/sc/13/rc/3/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/234567829267/u/0/f/640313/c/34625/s/49536dda/sc/13/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/234567829267/u/0/f/640313/c/34625/s/49536dda/sc/13/a2.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://adchoice.feedsportal.com/r/234567829267/u/0/f/640313/c/34625/s/49536dda/sc/13/ach.htm"&gt;&lt;img src="http://adchoice.feedsportal.com/r/234567829267/u/0/f/640313/c/34625/s/49536dda/sc/13/ach.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/234567829267/u/0/f/640313/c/34625/s/49536dda/sc/13/a2t.img" border="0"/&gt;&lt;img width="1" height="1" src="http://pi2.feedsportal.com/r/234567829267/u/0/f/640313/c/34625/s/49536dda/sc/13/a2t2.img" border="0"/&gt;&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/640313/s/49536dda/sc/13/mf.gif' border='0'/&gt;
+     </description>
+     <pubdate>
+      Thu, 27 Aug 2015 01:28:40 GMT
+     </pubdate>
+     <guid ispermalink="false">
+      http://www.nytimes.com/aponline/2015/08/26/sports/baseball/ap-bba-tigers-verlander-no-hitter-alert.html
+     </guid>
+     <dc:creator>
+      THE ASSOCIATED PRESS
+     </dc:creator>
+    </item>
+    <item>
+     <atom:link href="http://www.nytimes.com/2015/08/27/sports/baseball/a-different-kind-of-yankee-rotation.html?partner=rss&amp;emc=rss" rel="standout">
+     </atom:link>
+     <title>
+      A Different Kind of Yankee Rotation
+     </title>
+     <link/>
+     http://rss.nytimes.com/c/34625/f/640313/s/49536dd4/sc/13/l/0L0Snytimes0N0C20A150C0A80C270Csports0Cbaseball0Ca0Edifferent0Ekind0Eof0Eyankee0Erotation0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm
+     <description>
+      To keep pitchers’ arms fresh, the Yankees have recalled or demoted a pitcher in 43 transactions this season, about once every three games.&lt;br clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567829266/u/0/f/640313/c/34625/s/49536dd4/sc/13/rc/1/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567829266/u/0/f/640313/c/34625/s/49536dd4/sc/13/rc/1/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567829266/u/0/f/640313/c/34625/s/49536dd4/sc/13/rc/2/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567829266/u/0/f/640313/c/34625/s/49536dd4/sc/13/rc/2/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567829266/u/0/f/640313/c/34625/s/49536dd4/sc/13/rc/3/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567829266/u/0/f/640313/c/34625/s/49536dd4/sc/13/rc/3/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/234567829266/u/0/f/640313/c/34625/s/49536dd4/sc/13/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/234567829266/u/0/f/640313/c/34625/s/49536dd4/sc/13/a2.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://adchoice.feedsportal.com/r/234567829266/u/0/f/640313/c/34625/s/49536dd4/sc/13/ach.htm"&gt;&lt;img src="http://adchoice.feedsportal.com/r/234567829266/u/0/f/640313/c/34625/s/49536dd4/sc/13/ach.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/234567829266/u/0/f/640313/c/34625/s/49536dd4/sc/13/a2t.img" border="0"/&gt;&lt;img width="1" height="1" src="http://pi2.feedsportal.com/r/234567829266/u/0/f/640313/c/34625/s/49536dd4/sc/13/a2t2.img" border="0"/&gt;&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/640313/s/49536dd4/sc/13/mf.gif' border='0'/&gt;
+     </description>
+     <category domain="http://www.nytimes.com/namespaces/keywords/des">
+      Baseball
+     </category>
+     <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">
+      Scranton/Wilkes-Barre RailRiders
+     </category>
+     <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">
+      Cashman, Brian
+     </category>
+     <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">
+      New York Yankees
+     </category>
+     <pubdate>
+      Thu, 27 Aug 2015 01:14:18 GMT
+     </pubdate>
+     <guid ispermalink="false">
+      http://www.nytimes.com/2015/08/27/sports/baseball/a-different-kind-of-yankee-rotation.html
+     </guid>
+     <dc:creator>
+      BILLY WITZ
+     </dc:creator>
+     <media:credit scheme="urn:ebu">
+      Brett Carlsen for The New York Times
+     </media:credit>
+     <media:description>
+      Caleb Cotham, helping with a youth camp, is among the many Yankees pitchers who have shuttled between Scranton and the Bronx.
+     </media:description>
+     <media:content height="151" lang="" url="http://graphics8.nytimes.com/images/2015/08/27/sports/27shuttle-1/27shuttle-1-moth.jpg" width="151">
+     </media:content>
+    </item>
+    <item>
+     <atom:link href="http://www.nytimes.com/2015/08/27/sports/baseball/missing-two-key-bats-yankees-offense-seems-adrift.html?partner=rss&amp;emc=rss" rel="standout">
+     </atom:link>
+     <title>
+      Astros 6, Yankees 2: Missing Two Key Bats, Yankees’ Offense Seems Adrift
+     </title>
+     <link/>
+     http://rss.nytimes.com/c/34625/f/640313/s/4951edef/sc/35/l/0L0Snytimes0N0C20A150C0A80C270Csports0Cbaseball0Cmissing0Etwo0Ekey0Ebats0Eyankees0Eoffense0Eseems0Eadrift0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm
+     <description>
+      Without Mark Teixeira or Jacoby Ellsbury in the lineup Wednesday afternoon, the Yankees dropped their fifth game in seven days.&lt;br clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567889812/u/0/f/640313/c/34625/s/4951edef/sc/35/rc/1/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567889812/u/0/f/640313/c/34625/s/4951edef/sc/35/rc/1/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567889812/u/0/f/640313/c/34625/s/4951edef/sc/35/rc/2/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567889812/u/0/f/640313/c/34625/s/4951edef/sc/35/rc/2/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567889812/u/0/f/640313/c/34625/s/4951edef/sc/35/rc/3/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567889812/u/0/f/640313/c/34625/s/4951edef/sc/35/rc/3/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/234567889812/u/0/f/640313/c/34625/s/4951edef/sc/35/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/234567889812/u/0/f/640313/c/34625/s/4951edef/sc/35/a2.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://adchoice.feedsportal.com/r/234567889812/u/0/f/640313/c/34625/s/4951edef/sc/35/ach.htm"&gt;&lt;img src="http://adchoice.feedsportal.com/r/234567889812/u/0/f/640313/c/34625/s/4951edef/sc/35/ach.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/234567889812/u/0/f/640313/c/34625/s/4951edef/sc/35/a2t.img" border="0"/&gt;&lt;img width="1" height="1" src="http://pi2.feedsportal.com/r/234567889812/u/0/f/640313/c/34625/s/4951edef/sc/35/a2t2.img" border="0"/&gt;&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/640313/s/4951edef/sc/35/mf.gif' border='0'/&gt;
+     </description>
+     <category domain="http://www.nytimes.com/namespaces/keywords/des">
+      Baseball
+     </category>
+     <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">
+      Pineda, Michael
+     </category>
+     <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">
+      Houston Astros
+     </category>
+     <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">
+      Teixeira, Mark
+     </category>
+     <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">
+      Ellsbury, Jacoby
+     </category>
+     <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">
+      New York Yankees
+     </category>
+     <pubdate>
+      Thu, 27 Aug 2015 00:19:55 GMT
+     </pubdate>
+     <guid ispermalink="false">
+      http://www.nytimes.com/2015/08/27/sports/baseball/missing-two-key-bats-yankees-offense-seems-adrift.html
+     </guid>
+     <dc:creator>
+      ZACH SCHONBRUN
+     </dc:creator>
+     <media:credit scheme="urn:ebu">
+      Frank Franklin Ii/Associated Press
+     </media:credit>
+     <media:description>
+      Luis Valbuena sprinted home on Jose Altuve's sacrifice fly after the Astros strung together three straight hits against Michael Pineda in the fifth inning.
+     </media:description>
+     <media:content height="151" lang="" url="http://graphics8.nytimes.com/images/2015/08/27/sports/27YANKEES/27YANKEES-moth.jpg" width="151">
+     </media:content>
+    </item>
+    <item>
+     <title>
+      Bassitt, A's Bullpen Knocked Around in 8-2 Loss to Mariners
+     </title>
+     <link/>
+     http://rss.nytimes.com/c/34625/f/640313/s/4952ecde/sc/13/l/0L0Snytimes0N0Caponline0C20A150C0A80C260Csports0Cbaseball0Cap0Ebba0Eathletics0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm
+     <description>
+      Billy Burns accomplished what only two others had done, greeting Seattle ace Felix Hernandez with a home run leading off the game. On the first pitch, no less.&lt;br clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567904229/u/0/f/640313/c/34625/s/4952ecde/sc/13/rc/1/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567904229/u/0/f/640313/c/34625/s/4952ecde/sc/13/rc/1/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567904229/u/0/f/640313/c/34625/s/4952ecde/sc/13/rc/2/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567904229/u/0/f/640313/c/34625/s/4952ecde/sc/13/rc/2/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://rc.feedsportal.com/r/234567904229/u/0/f/640313/c/34625/s/4952ecde/sc/13/rc/3/rc.htm" rel="nofollow"&gt;&lt;img src="http://rc.feedsportal.com/r/234567904229/u/0/f/640313/c/34625/s/4952ecde/sc/13/rc/3/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/234567904229/u/0/f/640313/c/34625/s/4952ecde/sc/13/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/234567904229/u/0/f/640313/c/34625/s/4952ecde/sc/13/a2.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://adchoice.feedsportal.com/r/234567904229/u/0/f/640313/c/34625/s/4952ecde/sc/13/ach.htm"&gt;&lt;img src="http://adchoice.feedsportal.com/r/234567904229/u/0/f/640313/c/34625/s/4952ecde/sc/13/ach.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/234567904229/u/0/f/640313/c/34625/s/4952ecde/sc/13/a2t.img" border="0"/&gt;&lt;img width="1" height="1" src="http://pi2.feedsportal.com/r/234567904229/u/0/f/640313/c/34625/s/4952ecde/sc/13/a2t2.img" border="0"/&gt;&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/640313/s/4952ecde/sc/13/mf.gif' border='0'/&gt;
+     </description>
+     <pubdate>
+      Thu, 27 Aug 2015 00:17:23 GMT
+     </pubdate>
+     <guid ispermalink="false">
+      http://www.nytimes.com/aponline/2015/08/26/sports/baseball/ap-bba-athletics.html
+     </guid>
+     <dc:creator>
+      THE ASSOCIATED PRESS
+     </dc:creator>
+    </item>
+   </channel>
+  </rss>
+ </body>
+</html>

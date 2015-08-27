@@ -1,0 +1,4 @@
+[26/Aug/2015 07:49:50] DEBUG [django.db.backends:89] (0.008) QUERY = 'SELECT "articles_feed"."id", "articles_feed"."last_ripped", "articles_feed"."feed_url" FROM "articles_feed"' - PARAMS = (); args=()
+[26/Aug/2015 07:49:50] DEBUG [articles.models:25] Getting latest articles for feed http://www.cbssports.com/partners/feeds/rss/ScottMiller_columns
+[26/Aug/2015 07:49:50] DEBUG [articles.models:25] Getting latest articles for feed http://www.cbssports.com/partners/feeds/rss/KenBerger_columns
+[26/Aug/2015 07:49:50] DEBUG [articles.models:25] Getting latest articles for feed http://gregglewis.net/bunk
