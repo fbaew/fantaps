@@ -42,7 +42,7 @@ class Feed(models.Model):
             a.article_url = raw_article["article_url"]
             a.article_title = raw_article["article_title"]
             if not raw_article["pub_date"]:
-                pass
+                a.pub_date = timezone.now()
             else:
                 a.pub_date = raw_article["pub_date"]
             a.parent_feed = self

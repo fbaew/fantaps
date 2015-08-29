@@ -3,6 +3,7 @@ import datetime
 import pytz
 #from articles.models import Article
 from bs4 import BeautifulSoup
+from urllib.parse import urljoin
 
 class Scraper():
     def __init__(self,url):
@@ -47,30 +48,69 @@ class NYTScraper(Scraper):
 
         
 class TSNScraper(Scraper):
+
+    def overlaps(self,list1,list2):
+        for item in list1:
+            if item in list2:
+                return True
+        return False
     
     def scrape_all(self):
         self.articles = []
         r = requests.get(self.url)
         page = BeautifulSoup(r.text,"html.parser")
-        articles_no_pics = page.findAll("article",{"class":"promo-no-image-related"})
-        articles_pics = page.findAll("article",{"class":"promo-image"})
-        articles_on_page = articles_no_pics + articles_pics
-        i=0
-        for item in articles_on_page:
-            print ("Trying item {}".format(i))
-            i+=1
+        unfiltered_articles = page("article")
+        
+        '''
+        Get the bulk of the articles from the page...
+        '''
+        articles = list(
+            filter(
+                lambda x: "normal" not in x["class"] and "three-column" not in x["class"]
+                , unfiltered_articles
+            )
+        )
+        
+        for article in articles:
             a = {}
             a["pub_date"] = None
+            generic_classes = ["promo-image-related","promo-image","promo-no-image-related"]
+            
+            #First we scrape the top story.
+            if "super-promo" in article["class"]: #the big article up top
+                try:
+                    a["article_title"] = article.find("h2").text
+                except AtrributeError as e:
+                    print("Couldn't find article title...")
+                    
+                try:
+                    article_rel = article.find(class_="headline-super").find("a")["href"]
+                    print("trying to join {} and {}".format(self.url,article_rel))
+                    a["article_url"] = urljoin(self.url,  article_rel)
 
-            try:
-               a["article_title"] = item.find(class_="headline").find("h2").text
-               a["article_url"] = self.url + item.find(class_="headline").find("a")["href"]
-               print("Success: {}".format(a["article_title"]))
-               print(item)
+                except AttributeError as e:
+                    print("Couldn't retrieve article link for [{}]".format(a["article_title"]))
+                    f = open("scraper/ref/debug.html","w")
+                if "article_title" in a.keys() and "article_url" in a.keys():
+                    self.articles.append(a)
+            
+            elif self.overlaps(generic_classes, article["class"]) == True:
+                try:
+                    a["article_title"] = article.find("h3").text
+                except AttributeError as e:
+                    print("Error retrieving article title.")
+                
+                try:
+                    article_rel = article.find(class_="headline").find("a")["href"]
+                    a["article_url"] = urljoin(self.url, article_rel)
+                except AttributeError as e:
+                    print("Couldn't get url for [{}]".format(a["article_title"]))
+                if "article_title" in a.keys() and "article_url" in a.keys():
+                    self.articles.append(a)            
 
-            except AttributeError as error:
-                print("Problem with this: ~~~~~~~\n{}\n\n~~~~~~".format(item))
-                a["article_title"] = item.find(class_="headline-super").find("h2").text
-                a["article_url"] = self.url + item.find(class_="headline-super").find("a")["href"]
-           
-            self.articles.append(a)
+        '''
+        TSN displays a row of three stories which we may or may not care about...
+        We need different logic to extract their details.
+        '''
+        extra_stories = page(class_="three-column")
+
