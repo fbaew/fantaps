@@ -69,9 +69,9 @@ class SportTagger(Tagger):
     def __init__(self):
         super(SportTagger,self).__init__()
         self.keywords = [
-            ("Hockey","NHL"),
+            ("Hockey","NHL","N.H.L."),
             ("Baseball"
-                ,"MLB"
+                ,"MLB","M.L.B."
                 ,"World Series"
                 ,"Orioles"
                 ,"Red Sox"
@@ -103,6 +103,6 @@ class SportTagger(Tagger):
                 ,"Cardinals"
                 ,"Blue Jays"
                 ,"Nationals"),
-            ("Golf","PGA"),
-            ("Basketball","NBA"),
+            ("Golf","PGA","P.G.A."),
+            ("Basketball","NBA","N.B.A."),
         ]

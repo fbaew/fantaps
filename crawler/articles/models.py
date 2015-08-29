@@ -1,6 +1,6 @@
 from django.db import models
 from django.utils import timezone
-from articles.scraper import NYTScraper
+from articles.scraper import NYTScraper,TSNScraper
 import logging
 
 
@@ -27,14 +27,24 @@ class Feed(models.Model):
 
     def get_latest_articles(self):
         self.log.debug("Getting latest articles for feed {}".format(self.feed_url))
-        scraper = NYTScraper(self.feed_url)
+        
+        #gtl we need to somehow intuit the right scraper...
+        #... I'm so sorry
+        if "nytimes.com" in self.feed_url:
+            scraper = NYTScraper(self.feed_url)
+        elif "tsn.ca" in self.feed_url:
+            scraper = TSNScraper(self.feed_url)
+
         scraper.scrape_all()
         for raw_article in scraper.articles:
             # print("Raw: {}".format(raw_article))
             a = Article()
             a.article_url = raw_article["article_url"]
             a.article_title = raw_article["article_title"]
-            a.pub_date = raw_article["pub_date"]
+            if not raw_article["pub_date"]:
+                pass
+            else:
+                a.pub_date = raw_article["pub_date"]
             a.parent_feed = self
             if len(Article.objects.all().filter(article_title=a.article_title)) == 0:
                 print("[SCRAPING] '{}'".format(a.article_title))
@@ -44,7 +54,7 @@ class Feed(models.Model):
                 print("[CACHED] '{}'".format(a.article_title))
 
 class Article(models.Model):
-    pub_date = models.DateTimeField()
+    pub_date = models.DateTimeField(default=timezone.now)
     article_url = models.TextField(max_length=500)
     article_title = models.TextField(max_length=200)
     article_text = models.TextField(null=True)
