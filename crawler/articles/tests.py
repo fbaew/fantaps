@@ -1,6 +1,11 @@
 from django.test import TestCase
 import datetime
+import pytz
 from articles.scraper import RSSScraper
+from articles.tagger import SportTagger
+from articles.models import Article,Feed,Tag
+
+
 
 # Create your tests here.
 
@@ -18,4 +23,17 @@ class ScraperTestCase(TestCase):
         scraper = RSSScraper("http://rss.nytimes.com/services/xml/rss/nyt/Baseball.xml")
         scraper.scrape_all()
         for item in scraper.articles:
-            self.assertTrue(item["pub_date"] < datetime.datetime.now())
+            self.assertTrue(item["pub_date"] < pytz.utc.localize(datetime.datetime.now()))
+            
+class TaggerTestCase(TestCase):
+    
+    def test_tag_baseball(self):
+        st = SportTagger()
+        feed = Feed(feed_url = "http://rss.nytimes.com/services/xml/rss/nyt/Baseball.xml")
+        feed.save()
+        feed.get_latest_articles()
+        for article in feed.article_set.all():
+            scores = st.get_tag_scores(article.article_text)
+            # print("[{}] \t {}".format(scores["likeliest_tag"],article.article_title))
+            self.assertTrue(scores["likeliest_tag"] == "Baseball")
+            

@@ -1,5 +1,6 @@
 import requests
 import datetime
+import pytz
 #from articles.models import Article
 from bs4 import BeautifulSoup
 
@@ -26,8 +27,9 @@ class RSSScraper(Scraper):
             a = {}
             a["article_url"] = item.find_all("link")[0].nextSibling
             a["article_title"] = item.find_all("title")[0].string
-            a["pub_date"] = datetime.datetime.strptime(item.find_all("pubdate")[0].string,
+            naive_date = datetime.datetime.strptime(item.find_all("pubdate")[0].string,
                                             self.date_format)
+            a["pub_date"] = pytz.utc.localize(naive_date)
             
             self.articles.append(a)
 

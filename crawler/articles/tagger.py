@@ -4,6 +4,9 @@ class Tagger():
         pass
     
     def get_tag_scores(self,text):
+        '''
+        Count the keyword bucket occurences, and return the most frequent one.
+        '''
         scores = {}
         max_mentions = 0
         best_keyword = ""
@@ -14,6 +17,8 @@ class Tagger():
                 if scores[category[0]] > max_mentions:
                     max_mentions = scores[category[0]]
                     best_keyword = category[0]
+        print("[{}] - {}".format(text,best_keyword))
+        print(scores)
         return {
             "scores":scores,
             "likeliest_tag":best_keyword,
@@ -24,10 +29,6 @@ class TeamTagger(Tagger):
     def __init__(self):
         pass
 
-class SportTagger(Tagger):
-    def __init__(self):
-        pass
-        
 class CityTagger(Tagger):
     def __init__(self):
         super(CityTagger,self).__init__()
@@ -62,4 +63,46 @@ class CityTagger(Tagger):
             ("Vancouver","Canucks"),
             ("Washington","Capitals"),
             ("Winnipeg","Jets"),
+        ]
+        
+class SportTagger(Tagger):
+    def __init__(self):
+        super(SportTagger,self).__init__()
+        self.keywords = [
+            ("Hockey","NHL"),
+            ("Baseball"
+                ,"MLB"
+                ,"World Series"
+                ,"Orioles"
+                ,"Red Sox"
+                ,"White Sox"
+                ,"Indians"
+                ,"Tigers"
+                ,"Astros"
+                ,"Diamondbacks"
+                ,"Braves"
+                ,"Cubs"
+                ,"Reds"
+                ,"Rockies"
+                ,"Dodgers"
+                ,"Royals"
+                ,"Marlins"
+                ,"Angels"
+                ,"Twins"
+                ,"Yankees"
+                ,"Athletics"
+                ,"Mariners"
+                ,"Rays"
+                ,"Rangers"
+                ,"Brewers"
+                ,"Mets"
+                ,"Phillies"
+                ,"Pirates"
+                ,"Padres"
+                ,"Giants"
+                ,"Cardinals"
+                ,"Blue Jays"
+                ,"Nationals"),
+            ("Golf","PGA"),
+            ("Basketball","NBA"),
         ]
