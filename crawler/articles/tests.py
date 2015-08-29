@@ -33,7 +33,7 @@ class TaggerTestCase(TestCase):
         feed.save()
         feed.get_latest_articles()
         for article in feed.article_set.all():
-            scores = st.get_tag_scores(article.article_text)
+            scores = st.get_tag_scores(article)
             # print("[{}] \t {}".format(scores["likeliest_tag"],article.article_title))
             self.assertTrue(scores["likeliest_tag"] == "Baseball")
             

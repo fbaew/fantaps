@@ -1,9 +1,12 @@
+from articles.models import Article
+
 class Tagger():
     keywords = []
     def __init__(self):
         pass
     
-    def get_tag_scores(self,text):
+    def get_tag_scores(self,article):
+        text = article.article_text
         '''
         Count the keyword bucket occurences, and return the most frequent one.
         '''
@@ -19,6 +22,7 @@ class Tagger():
                     best_keyword = category[0]
         print("[{}] - {}".format(text,best_keyword))
         print(scores)
+        print(sorted(scores,key=scores.get))
         return {
             "scores":scores,
             "likeliest_tag":best_keyword,
@@ -105,4 +109,5 @@ class SportTagger(Tagger):
                 ,"Nationals"),
             ("Golf","PGA","P.G.A."),
             ("Basketball","NBA","N.B.A."),
+            ("Football","NFL","N.F.L.","CFL","C.F.L.")
         ]
