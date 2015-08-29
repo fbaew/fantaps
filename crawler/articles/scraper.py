@@ -85,7 +85,6 @@ class TSNScraper(Scraper):
                     
                 try:
                     article_rel = article.find(class_="headline-super").find("a")["href"]
-                    print("trying to join {} and {}".format(self.url,article_rel))
                     a["article_url"] = urljoin(self.url,  article_rel)
 
                 except AttributeError as e:

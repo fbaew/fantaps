@@ -11,6 +11,10 @@ class Command(BaseCommand):
         "http://rss.nytimes.com/services/xml/rss/nyt/Hockey.xml",
         "http://rss.nytimes.com/services/xml/rss/nyt/Baseball.xml",
         "http://rss.nytimes.com/services/xml/rss/nyt/Golf.xml",
+        "http://tsn.ca/nhl",
+        "http://tsn.ca/nba",
+        "http://tsn.ca/nfl",
+        "http://tsn.ca/cfl",
         ]
         for url in urls:
             f = Feed()
