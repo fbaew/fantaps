@@ -2,7 +2,7 @@
 <head>
 	<style>
 		body {
-			background-color:#DBFF94;
+			background-color:#aaa;
 		}
 		#content_container {
 			display:flex;
@@ -17,12 +17,16 @@
 			margin:10px;
 			padding-top:10px;
 		}
+		#story_index {
+
+		}
 		.tags {
 			font-size:8pt;
 		}
 		
 		li {
 			font-size:25pt;
+			font-family: 'Raleway', sans-serif;
 			border:1px solid #999999;
 			margin:10px;
 			padding:10px;
@@ -45,6 +49,7 @@
 			});
 		}
 	</script>
+	<link href='https://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <div id="content_container">
@@ -61,21 +66,13 @@
 {% endfor %}
 
 </ul>
-</div>
+</div><!-->
 <div id="middle">
 	<ul>
-	{% for article in article_list %}
-	    <li onclick="get_text({{article.pk}})">{{article.article_title}}
-		<div class="tags">
-			{% for tag in article.tag_set.all %}
-				<a href="/articles/tag/{{tag.tag_name}}">#{{tag.tag_name}}</a>
-			{% endfor %}
-		</div>
-		</li>
-	{% endfor %}
+
 
 	</ul>
 </div>
 <div id="article_text"></div>
-</div>
+</div>-->
 </html>

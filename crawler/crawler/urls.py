@@ -19,4 +19,6 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^articles/', include('articles.urls')),
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^/?', include('articles.urls')),
+    url(r'^feeds/', include('articles.urls')),
 ]

@@ -5,3 +5,4 @@ Python 3.4+
 	requests
 	lxml
 	django 1.8
+	pytz

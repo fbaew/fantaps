@@ -1,7 +1,7 @@
 from django.test import TestCase
 import datetime
 import pytz
-from articles.scraper import RSSScraper
+from articles.scraper import NYTScraper
 from articles.tagger import SportTagger
 from articles.models import Article,Feed,Tag
 
@@ -20,7 +20,7 @@ class ScraperTestCase(TestCase):
     
     def test_scrape_pub_date(self):
         start_time = datetime.datetime.now()
-        scraper = RSSScraper("http://rss.nytimes.com/services/xml/rss/nyt/Baseball.xml")
+        scraper = NYTScraper("http://rss.nytimes.com/services/xml/rss/nyt/Baseball.xml")
         scraper.scrape_all()
         for item in scraper.articles:
             self.assertTrue(item["pub_date"] < pytz.utc.localize(datetime.datetime.now()))

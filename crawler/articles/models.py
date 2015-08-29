@@ -1,6 +1,6 @@
 from django.db import models
 from django.utils import timezone
-from articles.scraper import RSSScraper
+from articles.scraper import NYTScraper
 import logging
 
 
@@ -27,7 +27,7 @@ class Feed(models.Model):
 
     def get_latest_articles(self):
         self.log.debug("Getting latest articles for feed {}".format(self.feed_url))
-        scraper = RSSScraper(self.feed_url)
+        scraper = NYTScraper(self.feed_url)
         scraper.scrape_all()
         for raw_article in scraper.articles:
             # print("Raw: {}".format(raw_article))

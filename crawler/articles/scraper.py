@@ -13,10 +13,10 @@ class Scraper():
         r = requests.get(self.url)
         
 
-class RSSScraper(Scraper):
+class NYTScraper(Scraper):
     date_format = ""
     def __init__(self,url):
-        super(RSSScraper,self).__init__(url)
+        super(NYTScraper,self).__init__(url)
         self.date_format = "%a, %d %b %Y %H:%M:%S %Z"
 
     def scrape_all(self):
@@ -42,3 +42,10 @@ class RSSScraper(Scraper):
         for p in paragraphs:
             text += p.text
         return text
+        
+class TSNScraper(Scraper):
+    
+    def scrape_all(self):
+        r = requests.get(self.url)
+        feed = BeautifulSoup(r.text,"html.parser")
+        
