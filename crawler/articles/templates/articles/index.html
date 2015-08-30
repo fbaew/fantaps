@@ -3,13 +3,36 @@
 	<style>
 		body {
 			background-color:#aaa;
+			margin:0;
 		}
+		
+		#menu {
+			background-color:orange;
+			height:100%;
+			width:150px;
+			position:fixed;
+			overflow-y:scroll;
+		}
+		
+		#menu > ul > li > a, #menu > ul > li > a.visited {
+			text-decoration:none;
+			color:#000;
+		}
+		
+		#menu > ul > li {
+			margin-top:3px;
+			font-size:15pt;
+		}
+		
+		#menu > ul > li:hover {
+			background-color:green;
+		}
+		
 		#content_container {
 			display:flex;
+			margin-left:150px;
 		}
-		#content_container > div {
-			flex-grow:1;
-		}
+
 		
 		#article_text {
 			font-family:verdana,sans-serif;
@@ -18,24 +41,37 @@
 			padding-top:10px;
 		}
 		#story_index {
-
+			width:100%;
 		}
-		.tags {
-			font-size:8pt;
-		}
-		
-		li {
+	
+		li.story {
 			font-size:25pt;
 			font-family: 'Raleway', sans-serif;
 			border:1px solid #999999;
 			margin:10px;
-			padding:10px;
+/*			padding:10px;*/
+			padding: 10px 0px 0px 0px;
+			padding-bottom:none;
 			background-color:#fff;
 			box-shadow: 2px 2px 3px #888888;
 		    
 		}
 		ul {
 			list-style-type:none;
+			padding-left:0;
+		}
+		.tags > a, .tags > a.visited {
+			font-size:12pt;
+			margin:none;
+			padding:3px;
+			color:#fff;
+			text-decoration:none;
+			background-color:#000;
+		}
+		.tags {
+			padding:none;
+			background-color:#aaa;
+			display:flex;
 		}
 	</style>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -52,11 +88,19 @@
 	<link href='https://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
 </head>
 <body>
+<div id="menu">
+	<ul>
+		<li><a href="/articles/all">All</a></li>
+		{% for tag in all_tags %}
+		<li><a href="/articles/tag/{{tag.tag_name}}">{{tag.tag_name}}</a></li>
+		{% endfor %}
+	<ul>
+</div>
 <div id="content_container">
 <div id="story_index">
 <ul>
 {% for article in article_list %}
-    <li onclick="get_text({{article.pk}})">{{article.article_title}}
+    <li class="story" onclick="get_text({{article.pk}})">{{article.article_title}}
 	<div class="tags">
 		{% for tag in article.tag_set.all %}
 			<a href="/articles/tag/{{tag.tag_name}}">#{{tag.tag_name}}</a>
@@ -66,7 +110,7 @@
 {% endfor %}
 
 </ul>
-</div><!-->
+</div><!--
 <div id="middle">
 	<ul>
 

@@ -12,6 +12,7 @@ def index(request):
     template = loader.get_template('articles/index.html')
     context = RequestContext(request, {
         'article_list':article_list,
+        'all_tags':Tag.objects.all(),
     })
     return HttpResponse(template.render(context))
 
@@ -21,9 +22,10 @@ def tag_roundup(request,tag_name):
     if tag:
         article_list = tag[0].tagged_articles.all()
 
-    template = loader.get_template('articles/tags.html')
+    template = loader.get_template('articles/index.html')
     context = RequestContext(request, {
         'article_list':article_list,
+        'all_tags':Tag.objects.all(),
         'tag':tag_name,
     })
     return HttpResponse(template.render(context))

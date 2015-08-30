@@ -76,36 +76,30 @@ class TSNScraper(Scraper):
             a["pub_date"] = None
             generic_classes = ["promo-image-related","promo-image","promo-no-image-related"]
             
-            #First we scrape the top story.
+            # configure our DOM search terms
             if "super-promo" in article["class"]: #the big article up top
-                try:
-                    a["article_title"] = article.find("h2").text
-                except AtrributeError as e:
-                    print("Couldn't find article title...")
-                    
-                try:
-                    article_rel = article.find(class_="headline-super").find("a")["href"]
-                    a["article_url"] = urljoin(self.url,  article_rel)
-
-                except AttributeError as e:
-                    print("Couldn't retrieve article link for [{}]".format(a["article_title"]))
-                    f = open("scraper/ref/debug.html","w")
-                if "article_title" in a.keys() and "article_url" in a.keys():
-                    self.articles.append(a)
+                header_size = "h2"
+                headline_class = "headline-super"
             
             elif self.overlaps(generic_classes, article["class"]) == True:
-                try:
-                    a["article_title"] = article.find("h3").text
-                except AttributeError as e:
-                    print("Error retrieving article title.")
-                
-                try:
-                    article_rel = article.find(class_="headline").find("a")["href"]
-                    a["article_url"] = urljoin(self.url, article_rel)
-                except AttributeError as e:
-                    print("Couldn't get url for [{}]".format(a["article_title"]))
-                if "article_title" in a.keys() and "article_url" in a.keys():
-                    self.articles.append(a)            
+                header_size = "h3"
+                headline_class = "headline"
+
+
+            try:
+                a["article_title"] = article.find(header_size).text
+            except AttributeError as e:
+                print("Error retrieving article title.")
+            
+            try:
+                article_rel = article.find(class_=headline_class).find("a")["href"]
+                a["article_url"] = urljoin(self.url, article_rel)
+            except AttributeError as e:
+                print("Couldn't get url for [{}]".format(a["article_title"]))
+            if "article_title" in a.keys() and "article_url" in a.keys():
+                self.articles.append(a)            
+
+
 
         '''
         TSN displays a row of three stories which we may or may not care about...
