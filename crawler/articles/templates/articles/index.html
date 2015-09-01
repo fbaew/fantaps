@@ -2,7 +2,7 @@
 <head>
 	<style>
 		body {
-			background-color:#aaa;
+			background-color:#339554;
 			margin:0;
 		}
 		
@@ -21,11 +21,13 @@
 		
 		#menu > ul > li {
 			margin-top:3px;
+			padding-left:10px;
 			font-size:15pt;
+			font-family: 'Source Sans Pro', sans-serif;
 		}
 		
 		#menu > ul > li:hover {
-			background-color:green;
+			background-color:yellow;
 		}
 		
 		#content_container {
@@ -50,10 +52,10 @@
 			border:1px solid #999999;
 			margin:10px;
 /*			padding:10px;*/
-			padding: 10px 0px 0px 0px;
+			padding: 2px 0px 0px 0px;
 			padding-bottom:none;
 			background-color:#fff;
-			box-shadow: 2px 2px 3px #888888;
+			box-shadow: 2px 2px 3px #003300;
 		    
 		}
 		ul {
@@ -62,14 +64,15 @@
 		}
 		.tags > a, .tags > a.visited {
 			font-size:12pt;
-			margin:none;
+			margin:0;
 			padding:3px;
 			color:#fff;
 			text-decoration:none;
 			background-color:#000;
 		}
 		.tags {
-			padding:none;
+			padding:0;
+			margin:0;
 			background-color:#aaa;
 			display:flex;
 		}
@@ -86,6 +89,7 @@
 		}
 	</script>
 	<link href='https://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <div id="menu">
@@ -100,7 +104,8 @@
 <div id="story_index">
 <ul>
 {% for article in article_list %}
-    <li class="story" onclick="get_text({{article.pk}})">{{article.article_title}}
+	<!--get_text({{article.pk}}) -->
+    <li class="story" onclick="window.location.assign('{{article.article_url}}')">{{article.article_title}}
 	<div class="tags">
 		{% for tag in article.tag_set.all %}
 			<a href="/articles/tag/{{tag.tag_name}}">#{{tag.tag_name}}</a>
