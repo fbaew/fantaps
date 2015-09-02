@@ -8,7 +8,7 @@ from articles.models import Article,Tag
 
 
 def index(request):
-    article_list = Article.objects.order_by("pub_date")
+    article_list = Article.objects.order_by("pub_date").reverse()
     template = loader.get_template('articles/index.html')
     context = RequestContext(request, {
         'article_list':article_list,
@@ -20,7 +20,7 @@ def tag_roundup(request,tag_name):
     article_list = None
     tag = Tag.objects.filter(tag_name=tag_name)
     if tag:
-        article_list = tag[0].tagged_articles.order_by("pub_date")
+        article_list = tag[0].tagged_articles.order_by("pub_date").reverse()
 
     template = loader.get_template('articles/index.html')
     context = RequestContext(request, {
