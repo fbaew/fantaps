@@ -22,9 +22,9 @@ class Tagger():
                 if scores[category[0]] > max_mentions:
                     max_mentions = scores[category[0]]
                     best_keyword = category[0]
-        print("[{}] - {}".format(text,best_keyword))
-        print(scores)
-        print(sorted(scores,key=scores.get))
+#        print("[{}] - {}".format(text,best_keyword))
+#        print(scores)
+#        print(sorted(scores,key=scores.get))
         return {
             "scores":scores,
             "likeliest_tag":best_keyword,

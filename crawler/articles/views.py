@@ -10,11 +10,14 @@ from articles.models import Article,Tag
 def index(request):
     article_list = Article.objects.order_by("pub_date").reverse()
     template = loader.get_template('articles/index.html')
-    context = RequestContext(request, {
+    
+    html = template.render(
+        {
         'article_list':article_list,
         'all_tags':Tag.objects.all(),
-    })
-    return HttpResponse(template.render(context))
+        },request
+    )
+    return HttpResponse(html)
 
 def tag_roundup(request,tag_name):
     article_list = None

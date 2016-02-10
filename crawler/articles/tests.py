@@ -19,6 +19,7 @@ class ScraperTestCase(TestCase):
     #     self.assertEqual(len(self.all_articles),20)
     
     def test_scrape_pub_date(self):
+        print("Testing that NYT Scraper only returns articles from the past")
         start_time = datetime.datetime.now()
         scraper = NYTScraper("http://rss.nytimes.com/services/xml/rss/nyt/Baseball.xml")
         scraper.scrape_all()
@@ -51,12 +52,12 @@ class TaggerTestCase(TestCase):
         """
         We should count each instance of the sport name regardless of its case.
         """
-
+        print("Testing sport tagger for case-insensitivity")
         article = Article(
             pub_date = pytz.utc.localize(datetime.datetime.now()),
             article_url = "http://gregglewis.net/fakeurl",
             article_title = "Coach disgraced in counterfeit helmet scandal",
-            article_text = "Baseball baseball baseball basketball basketball",
+            article_text = "basEball baseball baseball basketball basketball",
             parent_feed = Feed(feed_url = "http://gregglewis.net/fake.xml"),
             tagged = False
         )
