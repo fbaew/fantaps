@@ -27,13 +27,31 @@ class ScraperTestCase(TestCase):
             
 class TaggerTestCase(TestCase):
     
-    def test_tag_baseball(self):
+    def dumb_test_tag_baseball(self):
         st = SportTagger()
         feed = Feed(feed_url = "http://rss.nytimes.com/services/xml/rss/nyt/Baseball.xml")
         feed.save()
         feed.get_latest_articles()
         for article in feed.article_set.all():
             scores = st.get_tag_scores(article)
-            # print("[{}] \t {}".format(scores["likeliest_tag"],article.article_title))
+            print("[{}] \t {}".format(scores["likeliest_tag"],article.article_title))
             self.assertTrue(scores["likeliest_tag"] == "Baseball")
-            
+
+    def test_sporttagger_case_insensitive(self):
+        """
+        We should count each instance of the sport name regardless of its case.
+        """
+
+        article = Article(
+            pub_date = pytz.utc.localize(datetime.datetime.now()),
+            article_url = "http://gregglewis.net/fakeurl",
+            article_title = "Coach disgraced in counterfeit helmet scandal",
+            article_text = "Baseball baseball baseball basketball basketball",
+            parent_feed = Feed(feed_url = "http://gregglewis.net/fake.xml"),
+            tagged = False
+        )
+
+        tagger = SportTagger()
+        result = tagger.get_tag_scores(article)
+        self.assertTrue(result["likeliest_tag"] == "Baseball")
+        self.assertTrue(result["scores"][result["likeliest_tag"]] == 3)

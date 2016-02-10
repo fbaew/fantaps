@@ -1,6 +1,6 @@
 from django.db import models
 from django.utils import timezone
-from articles.scraper import NYTScraper,TSNScraper
+from articles.scraper import NYTScraper,TSNScraper,Scraper
 import logging
 
 
