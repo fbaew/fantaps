@@ -16,7 +16,9 @@ class Tagger():
         for category in self.keywords:
             scores[category[0]] = 0;
             for keyword in category:
-                scores[category[0]] += text.count(keyword)
+                scores[category[0]] += text.upper().count(
+                    keyword.upper()
+                )
                 if scores[category[0]] > max_mentions:
                     max_mentions = scores[category[0]]
                     best_keyword = category[0]
