@@ -23,6 +23,7 @@ from bs4.element import (
     PY3K,
     CData,
     Comment,
+    Declaration,
     Doctype,
     NavigableString,
     SoupStrainer,
@@ -1084,6 +1085,31 @@ class TestTreeModification(SoupTest):
         self.assertEqual(foo_2, soup.a.string)
         self.assertEqual(bar_2, soup.b.string)
 
+    def test_extract_multiples_of_same_tag(self):
+        soup = self.soup("""
+<html>
+<head>
+<script>foo</script>
+</head>
+<body>
+ <script>bar</script>
+ <a></a>
+</body>
+<script>baz</script>
+</html>""")
+        [soup.script.extract() for i in soup.find_all("script")]
+        self.assertEqual("<body>\n\n<a></a>\n</body>", str(soup.body))
+
+
+    def test_extract_works_when_element_is_surrounded_by_identical_strings(self):
+        soup = self.soup(
+ '<html>\n'
+ '<body>hi</body>\n'
+ '</html>')
+        soup.find('body').extract()
+        self.assertEqual(None, soup.find('body'))
+
+
     def test_clear(self):
         """Tag.clear()"""
         soup = self.soup("<p><a>String <em>Italicized</em></a> and another</p>")
@@ -1592,6 +1618,9 @@ class TestNavigableStringSubclasses(SoupTest):
         soup.insert(1, doctype)
         self.assertEqual(soup.encode(), b"<!DOCTYPE foo>\n")
 
+    def test_declaration(self):
+        d = Declaration("foo")
+        self.assertEqual("<?foo?>", d.output_ready())
 
 class TestSoupSelector(TreeTest):
 
@@ -1942,22 +1971,25 @@ class TestSoupSelector(TreeTest):
 
     # Test the selector grouping operator (the comma)
     def test_multiple_select(self):
-        self.assertSelects('x, y',['xid','yid'])
+        self.assertSelects('x, y', ['xid', 'yid'])
 
     def test_multiple_select_with_no_space(self):
-        self.assertSelects('x,y',['xid','yid'])
+        self.assertSelects('x,y', ['xid', 'yid'])
 
     def test_multiple_select_with_more_space(self):
-        self.assertSelects('x,    y',['xid', 'yid'])
+        self.assertSelects('x,    y', ['xid', 'yid'])
+
+    def test_multiple_select_duplicated(self):
+        self.assertSelects('x, x', ['xid'])
 
     def test_multiple_select_sibling(self):
-        self.assertSelects('x, y ~ p[lang=fr]',['lang-fr'])
+        self.assertSelects('x, y ~ p[lang=fr]', ['xid', 'lang-fr'])
 
-    def test_multiple_select(self):
-        self.assertSelects('x, y > z', ['zida', 'zidb', 'zidab', 'zidac'])
+    def test_multiple_select_tag_and_direct_descendant(self):
+        self.assertSelects('x, y > z', ['xid', 'zidb'])
 
-    def test_multiple_select_direct_descendant(self):
-        self.assertSelects('div > x, y, z', ['xid', 'yid'])
+    def test_multiple_select_direct_descendant_and_tags(self):
+        self.assertSelects('div > x, y, z', ['xid', 'yid', 'zida', 'zidb', 'zidab', 'zidac'])
 
     def test_multiple_select_indirect_descendant(self):
         self.assertSelects('div x,y,  z', ['xid', 'yid', 'zida', 'zidb', 'zidab', 'zidac'])
@@ -1966,14 +1998,14 @@ class TestSoupSelector(TreeTest):
         self.assertRaises(ValueError, self.soup.select, ',x, y')
         self.assertRaises(ValueError, self.soup.select, 'x,,y')
 
-    def test_multiple_select(self):
-        self.assertSelects('p[lang=en], p[lang=en-gb]',['lang-en','lang-en-gb'])
+    def test_multiple_select_attrs(self):
+        self.assertSelects('p[lang=en], p[lang=en-gb]', ['lang-en', 'lang-en-gb'])
 
     def test_multiple_select_ids(self):
-        self.assertSelects('x, y > z[id=zida], z[id=zidab], z[id=zidb]', ['zida', 'zidb','zidab'])
+        self.assertSelects('x, y > z[id=zida], z[id=zidab], z[id=zidb]', ['xid', 'zidb', 'zidab'])
 
     def test_multiple_select_nested(self):
-        self.assertSelects('body > div > x, y > z', ['zida', 'zidb', 'zidab', 'zidac'])
+        self.assertSelects('body > div > x, y > z', ['xid', 'zidb'])
 
 
 

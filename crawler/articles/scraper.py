@@ -90,6 +90,7 @@ class TSNScraper(Scraper):
                 a["article_title"] = article.find(header_size).text
             except AttributeError as e:
                 print("Error retrieving article title.")
+                a["article_title"] = "unretrieved article"
             
             try:
                 article_rel = article.find(class_=headline_class).find("a")["href"]
