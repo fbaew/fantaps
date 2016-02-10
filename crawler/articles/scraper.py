@@ -21,7 +21,8 @@ class Scraper():
 #    def scrape_all_articles(self):
 #        r = requests.get(self.url)
 
-    def get_article_text(self, url):
+    @staticmethod
+    def get_article_text(url):
         """
         Naively pull all text from a given web page. In many cases, this will
         probably be overridden by each subclass, but for now, since we are
@@ -46,6 +47,10 @@ class NYTScraper(Scraper):
         self.date_format = "%a, %d %b %Y %H:%M:%S %Z"
 
     def scrape_all(self):
+        """
+        Extract article details (headline, URL, and date) from each item found
+        at self.url
+        """
         self.articles = []
         request = requests.get(self.url)
         feed = BeautifulSoup(request.text, "lxml")
