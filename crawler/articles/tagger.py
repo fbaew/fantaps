@@ -40,76 +40,76 @@ class CityTagger(Tagger):
         super(CityTagger,self).__init__()
         self.keywords = [
             ("Anaheim", "Ducks"),
-            ("Arizona","Coyotes"),
+            ("Arizona", "Coyotes"),
             ("Boston", "Bruins"),
-            ("Buffalo","Sabres"),
-            ("Calgary","Flames"),
-            ("Carolina","Hurricanes"),
-            ("Chicago","Blackhawks"),
-            ("Colorado","Avalanche"),
-            ("Columbus","Blue Jackets"),
-            ("Dallas","Stars"),
-            ("Detroit","Red Wings"),
-            ("Edmonton","Oilers"),
-            ("Florida","Panthers"),
-            ("Los Angeles","Kings"),
-            ("Minnesota","Wild"),
-            ("Montreal","Canadiens"),
-            ("Nashville","Predators"),
-            ("New Jersey","Devils"),
-            ("New York","Islanders"),
-            ("New York","Rangers"),
-            ("Philadelphia","Flyers"),
-            ("Pittsburgh","Penguins"),
-            ("Ottawa","Senators"),
-            ("San Jose","Sharks"),
-            ("St Louis","Blues"),
-            ("Tampa Bay","Lightning"),
-            ("Toronto","Maple Leafs"),
-            ("Vancouver","Canucks"),
-            ("Washington","Capitals"),
-            ("Winnipeg","Jets"),
+            ("Buffalo", "Sabres"),
+            ("Calgary", "Flames"),
+            ("Carolina", "Hurricanes"),
+            ("Chicago", "Blackhawks"),
+            ("Colorado", "Avalanche"),
+            ("Columbus", "Blue Jackets"),
+            ("Dallas", "Stars"),
+            ("Detroit", "Red Wings"),
+            ("Edmonton", "Oilers"),
+            ("Florida", "Panthers"),
+            ("Los Angeles", "Kings"),
+            ("Minnesota", "Wild"),
+            ("Montreal", "Canadiens"),
+            ("Nashville", "Predators"),
+            ("New Jersey", "Devils"),
+            ("New York", "Islanders"),
+            ("New York", "Rangers"),
+            ("Philadelphia", "Flyers"),
+            ("Pittsburgh", "Penguins"),
+            ("Ottawa", "Senators"),
+            ("San Jose", "Sharks"),
+            ("St Louis", "Blues"),
+            ("Tampa Bay", "Lightning"),
+            ("Toronto", "Maple Leafs"),
+            ("Vancouver", "Canucks"),
+            ("Washington", "Capitals"),
+            ("Winnipeg", "Jets"),
         ]
         
 class SportTagger(Tagger):
     def __init__(self):
         super(SportTagger,self).__init__()
         self.keywords = [
-            ("Hockey","NHL","N.H.L."),
+            ("Hockey", "NHL", "N.H.L."),
             ("Baseball"
-                ,"MLB","M.L.B."
-                ,"World Series"
-                ,"Orioles"
-                ,"Red Sox"
-                ,"White Sox"
-                ,"Indians"
-                ,"Tigers"
-                ,"Astros"
-                ,"Diamondbacks"
-                ,"Braves"
-                ,"Cubs"
-                ,"Reds"
-                ,"Rockies"
-                ,"Dodgers"
-                ,"Royals"
-                ,"Marlins"
-                ,"Angels"
-                ,"Twins"
-                ,"Yankees"
-                ,"Athletics"
-                ,"Mariners"
-                ,"Rays"
-                ,"Rangers"
-                ,"Brewers"
-                ,"Mets"
-                ,"Phillies"
-                ,"Pirates"
-                ,"Padres"
-                ,"Giants"
-                ,"Cardinals"
-                ,"Blue Jays"
-                ,"Nationals"),
-            ("Golf","PGA","P.G.A."),
-            ("Basketball","NBA","N.B.A."),
-            ("Football","NFL","N.F.L.","CFL","C.F.L.")
+                , "MLB", "M.L.B."
+                , "World Series"
+                , "Orioles"
+                , "Red Sox"
+                , "White Sox"
+                , "Indians"
+                , "Tigers"
+                , "Astros"
+                , "Diamondbacks"
+                , "Braves"
+                , "Cubs"
+                , "Reds"
+                , "Rockies"
+                , "Dodgers"
+                , "Royals"
+                , "Marlins"
+                , "Angels"
+                , "Twins"
+                , "Yankees"
+                , "Athletics"
+                , "Mariners"
+                , "Rays"
+                , "Rangers"
+                , "Brewers"
+                , "Mets"
+                , "Phillies"
+                , "Pirates"
+                , "Padres"
+                , "Giants"
+                , "Cardinals"
+                , "Blue Jays"
+                , "Nationals"),
+            ("Golf", "PGA", "P.G.A."),
+            ("Basketball", "NBA", "N.B.A."),
+            ("Football", "NFL", "N.F.L.", "CFL", "C.F.L.")
         ]

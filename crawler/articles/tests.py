@@ -28,6 +28,16 @@ class ScraperTestCase(TestCase):
 class TaggerTestCase(TestCase):
     
     def dumb_test_tag_baseball(self):
+
+        """
+        In theory, every article from this feed should get tagged as baseball.
+        This isn't really a unit test though, and would be better in some kind
+        of performance testing suite; I'm not sure that pulling from an
+        unknown outside source is a recipe for successful unit tests.
+
+        Maybe add this back to the suite when our tagging mechanism is smarter
+        """
+
         st = SportTagger()
         feed = Feed(feed_url = "http://rss.nytimes.com/services/xml/rss/nyt/Baseball.xml")
         feed.save()
