@@ -1,3 +1,8 @@
+"""
+Provides different variations of a core Scraper class, to extract news
+articles from known sites.
+"""
+
 import requests
 import datetime
 import pytz
@@ -6,6 +11,9 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
 class Scraper():
+    """
+    Generic scraper. Not itself ever instatiated.
+    """
     def __init__(self, url):
         self.url = url
         self.articles = []
@@ -14,15 +22,24 @@ class Scraper():
 #        r = requests.get(self.url)
 
     def get_article_text(self, url):
+        """
+        Naively pull all text from a given web page. In many cases, this will
+        probably be overridden by each subclass, but for now, since we are
+        just doing frequency analysis and looking for a few key words, it's
+        okay to just rip all the <p> tags.
+        """
         text = ""
         request = requests.get(url)
         page = BeautifulSoup(request.text, "html.parser")
         paragraphs = page.find_all("p")
-        for p in paragraphs:
-            text += p.text
+        for paragraph in paragraphs:
+            text += paragraph.text
         return text
 
 class NYTScraper(Scraper):
+    """
+    Rip articles from the New York Times sports section
+    """
     date_format = ""
     def __init__(self, url):
         super(NYTScraper, self).__init__(url)
@@ -34,40 +51,31 @@ class NYTScraper(Scraper):
         feed = BeautifulSoup(request.text, "lxml")
         items = feed.find_all("item")
         for item in items:
-            a = {}
-            a["article_url"] = item.find_all("link")[0].nextSibling
-            a["article_title"] = item.find_all("title")[0].string
+            details = {}
+            details["article_url"] = item.find_all("link")[0].nextSibling
+            details["article_title"] = item.find_all("title")[0].string
             naive_date = datetime.datetime.strptime(
                 item.find_all("pubdate")[0].string,
                 self.date_format)
-            a["pub_date"] = pytz.utc.localize(naive_date)
-            self.articles.append(a)
+            details["pub_date"] = pytz.utc.localize(naive_date)
+            self.articles.append(details)
 
 
 
 class TSNScraper(Scraper):
-
-    def overlaps(self, list1, list2):
-        for item in list1:
-            if item in list2:
-                return True
-        return False
-
+    """
+    Rip articles from TSN.ca
+    """
     def scrape_all(self):
+        """
+        Traverse the page content and extract the key information about each
+        article. That being: The article headline and the URL to the actual
+        article.
+        """
         self.articles = []
         request = requests.get(self.url)
         page = BeautifulSoup(request.text, "html.parser")
         unfiltered_articles = page("article")
-        #Get the bulk of the articles from the page...
-#        articles = list(
-#            filter(
-#                lambda x:
-#                "normal" not in x["class"] and
-#                "three-column" not in x["class"]
-#                , unfiltered_articles
-#            )
-#        )
-#
         articles = [
             x for x in unfiltered_articles if
             "normal" not in x["class"] and
@@ -77,19 +85,21 @@ class TSNScraper(Scraper):
         for article in articles:
             details = {}
             details["pub_date"] = None
-            generic_classes = ["promo-image-related"
+            generic_classes = ("promo-image-related"
                                , "promo-image"
                                , "promo-no-image-related"
-                              ]
+                              )
 
             # configure our DOM search terms
             if "super-promo" in article["class"]: #the big article up top
                 header_size = "h2"
                 headline_class = "headline-super"
 
-            elif self.overlaps(generic_classes, article["class"]) == True:
+            elif set(generic_classes).isdisjoint(set((article["class"]))):
                 header_size = "h3"
                 headline_class = "headline"
+                print("Generic article... we should probably skip it")
+                continue
 
 
             try:
