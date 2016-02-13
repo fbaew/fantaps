@@ -2,3 +2,4 @@ bin/
 env/
 *.pyc
 latest.log
+crawler/crawler/settings.py
