@@ -145,3 +145,12 @@ class SportsnetScraper(Scraper):
         :return:
         """
 
+        headlines = self.content.select(
+            ".headlines.module > ul > li > a"
+        )
+        for headline in headlines:
+            article = {}
+            article["article_title"] = headline.text.strip()
+            article["article_url"] = headline["href"]
+            article["pub_date"] = None
+            self.articles.append(article)

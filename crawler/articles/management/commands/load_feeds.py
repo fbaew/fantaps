@@ -8,14 +8,15 @@ class Command(BaseCommand):
 
     def _populate(self):
         urls = [
-        "http://rss.nytimes.com/services/xml/rss/nyt/Hockey.xml",
-        "http://rss.nytimes.com/services/xml/rss/nyt/Baseball.xml",
-        "http://rss.nytimes.com/services/xml/rss/nyt/Golf.xml",
-        "http://tsn.ca/nhl",
-        "http://tsn.ca/nba",
-        "http://tsn.ca/nfl",
-        "http://tsn.ca/cfl",
-        "http://tsn.ca/mlb",
+        #"http://rss.nytimes.com/services/xml/rss/nyt/Hockey.xml",
+        #"http://rss.nytimes.com/services/xml/rss/nyt/Baseball.xml",
+        #"http://rss.nytimes.com/services/xml/rss/nyt/Golf.xml",
+        #"http://tsn.ca/nhl",
+        #"http://tsn.ca/nba",
+        #"http://tsn.ca/nfl",
+        #"http://tsn.ca/cfl",
+        #"http://tsn.ca/mlb",
+            "http://www.sportsnet.ca/hockey/nhl/",
         ]
         for url in urls:
             f = Feed()

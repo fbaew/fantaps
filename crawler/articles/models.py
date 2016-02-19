@@ -1,6 +1,6 @@
 from django.db import models
 from django.utils import timezone
-from articles.scraper import NYTScraper,TSNScraper,Scraper
+from articles.scraper import *
 import logging
 
 
@@ -28,12 +28,17 @@ class Feed(models.Model):
     def get_latest_articles(self):
         self.log.debug("Getting latest articles for feed {}".format(self.feed_url))
         
-        #gtl we need to somehow intuit the right scraper...
-        #... I'm so sorry
+        """
+        we need to somehow intuit the right scraper...
+        ... I'm so sorry
+        """
         if "nytimes.com" in self.feed_url:
             scraper = NYTScraper(self.feed_url)
         elif "tsn.ca" in self.feed_url:
             scraper = TSNScraper(self.feed_url)
+        elif "sportsnet.ca" in self.feed_url:
+            print("initializing sportsnet scraper...")
+            scraper = SportsnetScraper(self.feed_url)
 
         scraper.scrape_all()
         for raw_article in scraper.articles:

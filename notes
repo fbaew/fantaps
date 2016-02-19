@@ -1,0 +1,4 @@
+TSN relevant selectors:
+
+Right side headlines: headlines_module > ul > li > a > span 
+
