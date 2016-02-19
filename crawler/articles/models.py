@@ -48,7 +48,7 @@ class Feed(models.Model):
             a.parent_feed = self
             if len(Article.objects.all().filter(article_title=a.article_title)) == 0:
                 print("[SCRAPING] '{}'".format(a.article_title))
-                a.article_text = Scraper.get_article_text(a.article_url)
+                a.article_text = scraper.get_article_text(a.article_url)
                 a.save()
             else:
                 print("[CACHED] '{}'".format(a.article_title))

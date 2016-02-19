@@ -3,3 +3,10 @@ env/
 *.pyc
 latest.log
 crawler/crawler/settings.py
+doc/sources.xlsx
+**/db.sqlite3
+**/*.pyc
+.scrub
+.idea/
+**/.~lock.sources.xlsx#
+log/

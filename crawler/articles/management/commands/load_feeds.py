@@ -15,6 +15,7 @@ class Command(BaseCommand):
         "http://tsn.ca/nba",
         "http://tsn.ca/nfl",
         "http://tsn.ca/cfl",
+        "http://tsn.ca/mlb",
         ]
         for url in urls:
             f = Feed()

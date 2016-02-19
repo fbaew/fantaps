@@ -6,7 +6,6 @@ articles from known sites.
 import requests
 import datetime
 import pytz
-#from articles.models import Article
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
@@ -17,12 +16,13 @@ class Scraper():
     def __init__(self, url):
         self.url = url
         self.articles = []
+        request = requests.get(self.url)
+        self.content = BeautifulSoup(request.text, "html.parser")
 
 #    def scrape_all_articles(self):
 #        r = requests.get(self.url)
 
-    @staticmethod
-    def get_article_text(url):
+    def get_article_text(self, url):
         """
         Naively pull all text from a given web page. In many cases, this will
         probably be overridden by each subclass, but for now, since we are
@@ -31,8 +31,7 @@ class Scraper():
         """
         text = ""
         request = requests.get(url)
-        page = BeautifulSoup(request.text, "html.parser")
-        paragraphs = page.find_all("p")
+        paragraphs = self.content.find_all("p")
         for paragraph in paragraphs:
             text += paragraph.text
         return text
@@ -44,6 +43,8 @@ class NYTScraper(Scraper):
     date_format = ""
     def __init__(self, url):
         super(NYTScraper, self).__init__(url)
+        request = requests.get(self.url)
+        self.content = BeautifulSoup(request.text, "lxml")
         self.date_format = "%a, %d %b %Y %H:%M:%S %Z"
 
     def scrape_all(self):
@@ -51,10 +52,8 @@ class NYTScraper(Scraper):
         Extract article details (headline, URL, and date) from each item found
         at self.url
         """
-        self.articles = []
-        request = requests.get(self.url)
-        feed = BeautifulSoup(request.text, "lxml")
-        items = feed.find_all("item")
+
+        items = self.content.find_all("item")
         for item in items:
             details = {}
             details["article_url"] = item.find_all("link")[0].nextSibling
@@ -134,4 +133,15 @@ class TSNScraper(Scraper):
         # TSN displays a row of three stories which we may or may not care
         # about...  We need different logic to extract their details.
         # extra_stories = page(class_="three-column")
+
+class SportsnetScraper(Scraper):
+    """
+    Scrapes sportsnet.ca by topic
+    """
+
+    def scrape_all(self):
+        """
+        Traverse the page at the feed url and get headlines and article URLs.
+        :return:
+        """
 
